@@ -62,7 +62,7 @@ function Service() {
             <div className="row g-4 align-items-center">
               <div className="col-lg-6 order-2 order-lg-1">
                 <div className="about-feature-image-items-style-2">
-                  <img src="/assets/img/home-2/about-feature/about-feature-01.png" alt="SCiM LAB research" />
+                  <img src="/assets/media/2.jpg" alt="SCiM LAB research"  style={{maxWidth: '653px', height: '645px', objectFit: 'cover', backgroundPosition: 'center'}}/>
                   <div className="circle-image">
                     <img src="/assets/img/home-2/about-feature/circle-shape.png" alt="img" />
                     <div className="counter-items">
