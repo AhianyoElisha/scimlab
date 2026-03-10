@@ -10,7 +10,7 @@ function InnerLayout({ children, breadcrumbs, pageTitle, activePage }) {
             <div className="offcanvas__content">
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
-                  <a href="/"><img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{ width: '250px' }} /></a>
+                  <a href="/"><img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{ width: '150px' }} /></a>
                 </div>
                 <div className="offcanvas__close"><button><i className="fas fa-times"></i></button></div>
               </div>

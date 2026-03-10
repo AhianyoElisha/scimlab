@@ -7863,7 +7863,7 @@ span {
   cursor: pointer;
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__close i {
-  color: var(--header);
+  color: var(--white);
 }
 .offcanvas__wrapper .offcanvas__content .social-icon {
   margin-top: 30px;
@@ -7887,7 +7887,7 @@ span {
 }
 .offcanvas__wrapper .offcanvas__content .social-icon a:hover {
   background-color: var(--theme);
-  color: var(--header);
+  color: var(--white);
   border: 1px solid var(--theme);
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact {
@@ -7912,7 +7912,7 @@ span {
   text-align: center;
   border-radius: 50%;
   background-color: var(--theme);
-  color: var(--header);
+  color: var(--white);
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact .contact-list li .content p {
   color: var(--text);
@@ -15245,6 +15245,10 @@ span {
 .header-2:not(.sticky) .header-logo img {
   filter: brightness(0) invert(1);
 }
+.footer-section img {
+  filter: brightness(0) invert(1);
+}
+
 .footer-section .widget-head .white-logo-filter,
 .footer-section-2 .widget-head .white-logo-filter,
 .footer-section-2 .single-footer-widget .white-logo-filter {

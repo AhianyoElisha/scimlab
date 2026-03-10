@@ -11,7 +11,7 @@ function Home() {
                         <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div className="offcanvas__logo">
                                 <a href="/">
-                                    <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{width: '250px'}}/>
+                                    <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{width: '150px'}}/>
                                 </a>
                             </div>
                             <div className="offcanvas__close">
@@ -75,11 +75,11 @@ function Home() {
             <div className="mega-menu-wrapper">
                 <div className="header-main">
                     <a href="/" className="header-logo">
-                        <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{width: '250px'}} />
+                        <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{width: '150px'}} />
                     </a>
                     <a href="/" className="logo">
                         <span className="logo-img">
-                            <img src="/assets/img/logo/logo.png" alt="SCiM LAB" style={{width: '250px', position: 'relative', top: '10px'}} />
+                            <img src="/assets/img/logo/logo.png" alt="SCiM LAB" style={{width: '150px', position: 'relative', top: '10px'}} />
                         </span>
                     </a>
                     <div className="header-right d-flex justify-content-end align-items-center">
@@ -934,7 +934,7 @@ function Home() {
                             <div className="footer-widget-items">
                                 <div className="widget-head">
                                     <a href="/">
-                                        <img src="/assets/img/logo/white-logo.png" alt="SCiM LAB" className="white-logo-filter" style={{width: '250px'}} />
+                                        <img src="/assets/img/logo/white-logo.png" alt="SCiM LAB" className="white-logo-filter" style={{width: '150px'}} />
                                     </a>
                                 </div>
                                 <div className="footer-content">
@@ -1033,7 +1033,7 @@ function Home() {
                         <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                             <div className="footer-widget-items footer-contact-form">
                                 <div className="footer-shape">
-                                    <img src="/assets/img/home-1/footer-shape.png" alt="img" />
+                                    <img src="/assets/img/home-1/footer-shape.png" alt="img" className='white-logo-filter' />
                                 </div>
                                 <div className="footer-shape-2">
                                     <img src="/assets/img/home-1/footer-shape-2.png" alt="img" />
