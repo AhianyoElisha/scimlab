@@ -13838,6 +13838,10 @@ span {
 .team-details-content ul li p a {
   color: #616766;
 }
+
+.team-details-content ul li i {
+  color: var(--white);
+}
 .team-details-content ul li:not(:last-child) {
   margin-bottom: 15px;
 }
