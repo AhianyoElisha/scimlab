@@ -54,7 +54,7 @@ function NewsDetails() {
                         <div className="info-item-area">
                           <div className="client-info">
                             <div className="client-image">
-                              <img src={article.quote.image} alt={article.quote.author} />
+                              <img src={article.quote.image} alt={article.quote.author} style={{width: '100px', height: '100px', objectFit: 'cover'}} />
                             </div>
                             <span>{article.quote.author}</span>
                           </div>

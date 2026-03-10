@@ -8,7 +8,7 @@ const newsArticles = [
     day: "15",
     month: "JAN",
     image: "/assets/media/1.jpg",
-    detailsImage: "/assets/img/inner/news/news-details-01.jpg",
+    detailsImage: "/assets/media/1.jpg",
     shortDesc:
       "The Shells of Elegance project reaches a major milestone with the completion of a full-scale organic cube prototype that demonstrates the potential of computational design and sustainable fabrication.",
     content: [
@@ -19,7 +19,7 @@ const newsArticles = [
     quote: {
       text: "Architecture should be a dialogue between technology and craft — where computational precision meets the warmth of human hands.",
       author: "Dr.-Ing. Alexander B. Marful",
-      image: "/assets/img/inner/news/news-details-client.png",
+      image: "/assets/media/1.jpg",
     },
     highlights: [
       "Parametric design tools used to optimise shell geometry for structural performance.",
@@ -27,7 +27,7 @@ const newsArticles = [
       "Cross-disciplinary collaboration between architecture, engineering, and computer science.",
       "Project outcomes published in international peer-reviewed journals.",
     ],
-    secondaryImage: "/assets/img/inner/news/news-details-02.jpg",
+    secondaryImage: "/assets/media/2.jpg",
     lookingForward: [
       "The project is now entering its next phase, with plans to scale the construction techniques for community building applications.",
       "SCiM LAB is seeking further partnerships to expand the research into different climatic and material contexts across West Africa.",
@@ -44,7 +44,7 @@ const newsArticles = [
     day: "08",
     month: "DEC",
     image: "/assets/media/2.jpg",
-    detailsImage: "/assets/img/inner/news/news-details-01.jpg",
+    detailsImage: "/assets/media/2.jpg",
     shortDesc:
       "The RENABUMA/BambooBend collaboration between SCiM LAB and DDF-KIT Karlsruhe demonstrates that bamboo can be transformed into a high-performance structural material for sustainable architecture.",
     content: [
@@ -55,7 +55,7 @@ const newsArticles = [
     quote: {
       text: "Bamboo is not a poor man's timber — it is a material of extraordinary potential waiting for innovative engineering to unlock it.",
       author: "Dr.-Ing. Alexander B. Marful",
-      image: "/assets/img/inner/news/news-details-client.png",
+      image: "/assets/media/1.jpg",
     },
     highlights: [
       "Novel bamboo bending techniques developed through iterative prototyping.",
@@ -63,7 +63,7 @@ const newsArticles = [
       "Collaborative workshops between KNUST and KIT students fostered knowledge exchange.",
       "Research contributes to sustainable building practices in tropical climates.",
     ],
-    secondaryImage: "/assets/img/inner/news/news-details-02.jpg",
+    secondaryImage: "/assets/media/1.jpg",
     lookingForward: [
       "The team is planning a large-scale bamboo pavilion as a permanent campus installation at KNUST.",
       "A joint publication with DDF-KIT documenting the bending techniques is in preparation.",
@@ -80,7 +80,7 @@ const newsArticles = [
     day: "20",
     month: "NOV",
     image: "/assets/media/1.jpg",
-    detailsImage: "/assets/img/inner/news/news-details-01.jpg",
+    detailsImage: "/assets/media/1.jpg",
     shortDesc:
       "SCiM LAB's frugal digital twinning research is making smart city technology accessible for developing nations through low-cost IoT sensors and AI-driven analytics.",
     content: [
@@ -91,7 +91,7 @@ const newsArticles = [
     quote: {
       text: "Innovation is not about technology alone — it is about creating meaningful change that improves lives and builds resilient communities.",
       author: "Dr.-Ing. Alexander B. Marful",
-      image: "/assets/img/inner/news/news-details-client.png",
+      image: "/assets/media/1.jpg",
     },
     highlights: [
       "Low-cost IoT sensor networks deployed across two major Ghanaian cities.",
@@ -99,7 +99,7 @@ const newsArticles = [
       "AI analytics enabling predictive maintenance and resource optimisation.",
       "Research model designed for replication across other developing nations.",
     ],
-    secondaryImage: "/assets/img/inner/news/news-details-02.jpg",
+    secondaryImage: "/assets/media/1.jpg",
     lookingForward: [
       "The digital twinning platform is being expanded to include environmental monitoring for air quality and flood risk.",
       "Partnerships with local government authorities are being formalised for long-term data-driven urban planning.",
@@ -115,8 +115,8 @@ const newsArticles = [
     date: "05 Oct, 2025",
     day: "05",
     month: "OCT",
-    image: "/assets/img/inner/news/news-01.jpg",
-    detailsImage: "/assets/img/inner/news/news-details-01.jpg",
+    image: "/assets/media/1.jpg",
+    detailsImage: "/assets/media/1.jpg",
     shortDesc:
       "The POINT project is building an evidence base for transport policy by documenting real mobility patterns and challenges faced by urban residents in Rwanda and Ghana.",
     content: [
@@ -127,7 +127,7 @@ const newsArticles = [
     quote: {
       text: "Mobility is not just about infrastructure — it is about ensuring every person can reach the opportunities they need to thrive.",
       author: "Dr.-Ing. Alexander B. Marful",
-      image: "/assets/img/inner/news/news-details-client.png",
+      image: "/assets/media/1.jpg",
     },
     highlights: [
       "Multi-country research across Rwanda and Ghana capturing diverse urban contexts.",
@@ -135,7 +135,7 @@ const newsArticles = [
       "Evidence-based policy recommendations for inclusive urban transport.",
       "Community engagement ensuring research reflects lived experience.",
     ],
-    secondaryImage: "/assets/img/inner/news/news-details-02.jpg",
+    secondaryImage: "/assets/media/2.jpg",
     lookingForward: [
       "A policy brief is being prepared for distribution to transport ministries in both countries.",
       "The dataset is being made available for further academic research through open data platforms.",
