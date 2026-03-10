@@ -1,0 +1,416 @@
+.pricing-section {
+	.nav {
+		border: none;
+        margin-top: 30px;
+		
+		.nav-tabs {
+			border-bottom: 0;
+			display: flex;
+			justify-content: center;
+		}
+
+		.nav-link {
+			font-size: 16px;
+			font-weight: 600;
+			text-transform: capitalize;
+			border: 0;
+			border-radius: 0;
+			padding: 7px 56px;
+			position: relative;
+			background: transparent;
+			z-index: 2;
+			color: $header-color;
+			margin-bottom: 0;
+
+			&::before {
+				position: absolute;
+				content: "";
+				right: 0px;
+				top: 50%;
+				transform: translateY(-50%) translateX(50%);
+				background: $theme-color-3;
+				width: 75px;
+				height: 32px;
+				border-radius: 20px;
+				border: 1px solid $theme-color-3;
+			}
+			&::after {
+				position: absolute;
+				content: "";
+				right: -33px;
+				top: 50%;
+				transform: translateY(-50%);
+				width: 24px;
+				height: 24px;
+				border-radius: 50%;
+				background: $white;
+				z-index: 1;
+			}
+			&:first-child {
+				padding-left: 0;
+			}
+			&:last-child {
+				padding-right: 0;
+				&::after {
+					display: none;
+				}
+				&::before {
+					display: none;
+				}
+			}
+			&.active {
+				color: $theme-color-3;
+
+				&::after {
+					right: 8px;
+				}
+			}
+		}
+	}
+}
+
+.pricing-box-items {
+    border-radius: 12px;
+    background: $white;
+    box-shadow: 0 0 111.6px 16px rgba(14, 5, 50, 0.04);
+    padding: 50px;
+    margin-top: 30px;
+    @include transition;
+
+    @include breakpoint (max-xxs){
+        padding: 25px;
+    }
+    
+    .pricing-header {
+        h3 {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 34px;
+            letter-spacing: 3.6px;
+            font-family: $heading-font;
+            color: $theme-color-3;
+            @include transition;
+        }
+    
+        h2 {
+            font-size: 78px;
+            font-weight: 700;
+            color: $theme-color-3;
+            @include transition;
+
+            @include breakpoint (max-md){
+                font-size: 50px;
+            }
+    
+            sub {
+                font-size: 16px;
+                font-weight: 400;
+                color: #414141;
+                @include transition;
+            }
+        }
+    }
+
+    .theme-btn {
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+        background-color: transparent;
+        color: #091613;
+        border-radius: 27.5px;
+        border: 1px solid #4B4D4F;
+        line-height: 1;
+        padding: 20px;
+        @include transition;
+
+       
+        i {
+            background-color: transparent;
+            color: #091613;
+            width: initial;
+            height: initial;
+            border-radius: none;
+            border-radius: initial;
+            line-height: initial;
+            @include transition;
+        }
+
+        &::before {
+            background-color: $theme-color-3;
+            @include transition;
+        }
+
+        &:hover {
+            color: $white;
+            border: 1px solid $theme-color-3;
+
+            i {
+                color: $white;
+            }
+        }
+    }
+
+    h4 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 30px;
+        @include transition;
+    }
+
+    .pricing-list {
+        margin-top: 20px;
+        @include transition;
+
+        li {
+            @include transition;
+
+            i {
+                color: #1E7E51;
+                margin-right: 10px;
+                @include transition;
+            }
+
+            &:not(:last-child) {
+                margin-bottom: 15px;
+            }
+        }
+    }
+
+    &.active {
+        background-color: $theme-color-3;
+
+        .pricing-header {
+            h3 {
+                color: $white;
+            }
+
+            h2 {
+                color: $white;
+
+                sub {
+                    color: $white;
+                }
+            }
+        }
+
+        p {
+            color: $white;
+        }
+
+        .theme-btn {
+           background-color: $white;
+           color: $theme-color-3;
+           border: none;
+        
+            i {
+                color: $theme-color-3;
+            }
+
+            &::before {
+                background-color: #EBFA9E;
+            }
+
+            &:hover {
+                color: $header-color;
+
+                i {
+                   color: $header-color;
+                }
+            }
+        }
+
+        h4 {
+            color: $white;
+        }
+
+        .pricing-list {
+            li {
+                color: $white;
+
+                i {
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+
+.pricing-box-items-style-5 {
+    background-color: $white;
+    filter: drop-shadow(0 10px 40px rgba(29, 31, 21, 0.10));
+    padding: 42px 30px;
+    border-radius: 10px;
+    @include transition;
+    margin-top: 30px;
+
+    .pricing-header {
+        @include flex;
+        justify-content: space-between;
+        border-bottom: 1px solid rgba(17, 17, 17, 0.1);
+        padding-bottom: 40px;
+        @include transition;
+
+        .pricing-content {
+
+            h4 {
+                font-family: $heading-font-2;
+                font-size: 25px;
+                font-weight: 600;
+                @include transition;
+
+            }
+
+            h3 {
+                background-color: rgba(121, 185, 0, 0.06);
+                width: 120px;
+                height: 60px;
+                line-height: 60px;
+                text-align: center;
+                color: $theme-color-4;
+                margin-top: 30px;
+                border-radius: 10px;
+                font-family: $heading-font-2;
+                @include transition;
+            }
+        }
+
+        .pricing-icon {
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            background-color: rgba(121, 185, 0, 0.1);
+            border-radius: 50%;
+            font-family: $heading-font-2;
+            @include transition;
+
+            img {
+                @include transition;
+                display: inline-block;
+            }
+        }
+    }
+
+    ul {
+        margin-top: 40px;
+        li {
+            @include transition;
+
+            img {
+                margin-right: 8px;
+            }
+
+            &:not(:last-child) {
+                margin-bottom: 12px;
+            }
+        }
+    }
+
+    .theme-btn {
+        background-color: rgba(121, 185, 0, 0.1);
+        color: $theme-color-4;
+        width: 100%;
+        padding: 22px;
+        border-radius: 5px;
+        margin-top: 40px;
+        @include transition;
+    }
+
+    &:hover {
+        .pricing-content {
+            h3 {
+                background-color: $theme-color-4;
+                color: $white;
+            }
+        }
+
+        .pricing-icon {
+            img {
+                transform: scaleX(-1) !important;
+            }
+        }
+
+        .theme-btn {
+            background-color: $theme-color-4;
+            color: $white;
+        }
+    }
+}
+
+.pricing-section-5 {
+    position: relative;
+    z-index: 9;
+
+    .pricing-shape-1 {
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 10%;
+    }
+}
+
+.pricing-toggle-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	margin-bottom: 20px;
+
+    @include breakpoint (max-md){
+        margin-top: 30px;
+    }
+
+	.switch {
+		position: relative;
+		display: inline-block;
+		width: 55px;
+		height: 28px;
+	}
+
+	.switch input {
+		opacity: 0;
+		width: 0;
+		height: 0;
+	}
+
+	.slider {
+		position: absolute;
+		cursor: pointer;
+		top: 0; left: 0;
+		right: 0; bottom: 0;
+		background-color: #ddd;
+		transition: .4s;
+		border-radius: 34px;
+	}
+
+	.slider:before {
+	position: absolute;
+	content: "";
+	height: 22px;
+	width: 22px;
+	left: 3px;
+	bottom: 3px;
+	background-color: white;
+	transition: .4s;
+	border-radius: 50%;
+	}
+
+	input:checked + .slider {
+	background-color: $theme-color-3;
+	}
+
+	input:checked + .slider:before {
+	transform: translateX(26px);
+	}
+
+	.toggle-label {
+		font-weight: 600;
+		color: #111;
+		cursor: pointer;
+		transition: .3s;
+	}
+
+	.toggle-label.active {
+		color: $theme-color-3;
+	}
+}

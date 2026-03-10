@@ -1,0 +1,769 @@
+import React from 'react'
+
+function About() {
+  return (
+    <>
+{/* Offcanvas Area Start */}
+        <div className="fix-area">
+            <div className="offcanvas__info">
+                <div className="offcanvas__wrapper">
+                    <div className="offcanvas__content">
+                        <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                            <div className="offcanvas__logo">
+                                <a href="/">
+                                    <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{width: '250px'}}/>
+                                </a>
+                            </div>
+                            <div className="offcanvas__close">
+                                <button>
+                                    <i className="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <h3 className="offcanvas-title">SCiM LAB</h3>
+                        <p>The Smart Cities and Manufacturing Lab at TCC-CIMET, KNUST — Innovating Today, Shaping Tomorrow.</p>
+                        <div className="mobile-menu fix mt-15"></div>
+                        <div className="social-icon d-flex align-items-center">
+                            <a href="https://www.linkedin.com/in/scimlab360" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/Scimlab_360" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com/scim_lab" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                        </div>
+                        <div className="offcanvas__contact">
+                            <h3>Contact Us</h3>
+                            <ul className="contact-list">
+                                <li>
+                                    <div className="icon"><i className="fa-solid fa-phone-plus"></i></div>
+                                    <div className="content">
+                                        <p>Call Us</p>
+                                        <h4><a href="tel:+233322060230">+233 (0) 32 206 0230</a></h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon"><i className="fa-solid fa-envelopes"></i></div>
+                                    <div className="content">
+                                        <p>Send Email</p>
+                                        <h4><a href="mailto:scimlab@knust.edu.gh">scimlab@knust.edu.gh</a></h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon"><i className="fa-solid fa-location-dot"></i></div>
+                                    <div className="content">
+                                        <p>Location</p>
+                                        <h4>TCC-CIMET, KNUST, Kumasi, Ghana</h4>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                       <a href="/contact" className="theme-btn">Get In Touch <i className="fa-solid fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="offcanvas__overlay"></div>
+
+        {/* Header Section Start */}
+        <header className="header-section-3">
+            <div className="header-top-section">
+                <div className="header-top-wrapper">
+                    <p>
+                    Smart Cities &amp; Manufacturing Lab — TCC-CIMET, KNUST <a href="/contact" className="icon">Let's Talk <img src="/assets/img/talk.svg" alt="" /></a>
+                    </p>
+                    <ul className="contact-list">
+                        <li>
+                            <div className="icon"><i className="fa-solid fa-envelopes"></i></div>
+                            <div className="content">
+                                <h4><a href="mailto:scimlab@knust.edu.gh">scimlab@knust.edu.gh</a></h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="icon"><i className="fa-solid fa-clock"></i></div>
+                            <div className="content">
+                                <h4>Mon - Fri: 8:00am - 5:00pm</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="icon"><i className="fa-solid fa-location-dot"></i></div>
+                            <div className="content">
+                                <h4>TCC-CIMET, KNUST, Kumasi</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="header-sticky" className="header-3">
+                <div className="mega-menu-wrapper">
+                    <div className="header-main">
+                       <a href="/" className="header-logo">
+                            <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{width: '250px'}} />
+                        </a>
+                        <div className="header-right d-flex justify-content-end align-items-center">
+                            <div className="mean__menu-wrapper">
+                            <div className="main-menu">
+                                <nav id="mobile-menu">
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+                                    <li className="active"><a href="/about">About Us</a></li>
+                                    <li><a href="/team">Team</a></li>
+                                    <li><a href="/shop">Shop</a></li>
+                                    <li><a href="/services">Services</a></li>
+                                    <li><a href="/projects">Projects</a></li>
+                                    <li><a href="/news">News</a></li>
+                                    <li><a href="/contact">Contact</a></li>
+                                </ul>
+                            </nav>
+                            </div>
+                        </div>
+                            <div className="head-right">
+                                <div className="contact-item">
+                                    <div className="icon"><i className="fa-solid fa-phone-xmark"></i></div>
+                                    <div className="content">
+                                        <span>Call Us</span>
+                                        <h6><a href="tel:+233322060230">+233 (0) 32 206 0230</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="header__hamburger my-auto d-xl-none">
+                                <div className="sidebar__toggle">
+                                    <div className="header-bar">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                {/* Breadcrumb Section Start */}
+                <section className="breadcrumb-wrapper bg-cover fix" style={{backgroundImage: 'url(/assets/img/inner/breadcrumb-image.jpg)'}}>
+                    <div className="container">
+                        <div className="page-heading">
+                            <ul className="breadcrumb-list">
+                                <li>Home</li>
+                                <li>//</li>
+                                <li>About Us</li>
+                            </ul>
+                            <h1 className="breadcrumb-title">About SCiM LAB</h1>
+                        </div>
+                    </div>
+                </section>
+
+                {/* About Section Start */}
+                <section className="about-section section-padding fix">
+                    <div className="container">
+                        <div className="row g-4">
+                            <div className="col-lg-4">
+                                <div className="about-image-items-style-1">
+                                    <div className="section-title mb-0">
+                                        <h6 className="sub-title wow fadeInUp"><img src="/assets/img/sub-title-1.svg" alt="img" />ABOUT SCiM LAB</h6>
+                                    </div>
+                                    <div className="about-image wow fadeInUp" data-wow-delay=".2s">
+                                        <img src="/assets/img/home-1/about/about-01.png" alt="SCiM LAB" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-8">
+                                <div className="about-content-style-1">
+                                    <div className="section-title mb-0">
+                                        <h2 className="text_invert-2">Pioneering innovation at the intersection of technology, sustainability, and urban design at TCC-CIMET, KNUST</h2>
+                                    </div>
+                                    <div className="list-items">
+                                        <ul className="wow fadeInUp" data-wow-delay=".2s">
+                                            <li>
+                                                <img src="/assets/img/home-1/about/check-icon.svg" alt="img" />
+                                                UNESCO Category II Centre
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/home-1/about/check-icon.svg" alt="img" />
+                                                Frugal Innovation
+                                            </li>
+                                        </ul>
+                                        <ul className="wow fadeInUp" data-wow-delay=".4s">
+                                            <li>
+                                                <img src="/assets/img/home-1/about/check-icon.svg" alt="img" />
+                                                Expert Research Team
+                                            </li>
+                                            <li>
+                                                <img src="/assets/img/home-1/about/check-icon.svg" alt="img" />
+                                                Global Partnerships
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div className="bottom-items">
+                                        <div className="icon-box-items wow fadeInUp" data-wow-delay=".6s">
+                                            <div className="icon">
+                                                <img src="/assets/img/home-1/about/icon-1.svg" alt="img" />
+                                            </div>
+                                            <div className="content">
+                                                <h2><span className="count">50</span>+</h2>
+                                                <p>Years of TCC Excellence in engineering education and innovation</p>
+                                            </div>
+                                        </div>
+                                        <div className="icon-box-items wow fadeInUp" data-wow-delay=".8s">
+                                            <div className="icon">
+                                                <img src="/assets/img/home-1/about/icon-2.svg" alt="img" />
+                                            </div>
+                                            <div className="content">
+                                                <h2><span className="count">12</span>+</h2>
+                                                <p>Active research projects across smart cities and manufacturing</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="/projects" className="theme-btn wow fadeInUp" data-wow-delay=".9s">
+                                        View Our Projects
+                                        <i className="fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Brand Section Start */}
+                <div className="brand-section section-padding fix pt-0">
+                    <div className="container">
+                        <div className="top-text text-center">
+                            <p>Partnering with institutions and organizations worldwide</p>
+                        </div>
+                        <div className="swiper brand-slider">
+                            <div className="swiper-wrapper">
+                                <div className="swiper-slide">
+                                    <div className="brand-image text-center">
+                                        <img src="/assets/img/home-1/brand/brand-01.png" alt="partner" />
+                                    </div>
+                                </div>
+                                <div className="swiper-slide">
+                                    <div className="brand-image text-center">
+                                        <img src="/assets/img/home-1/brand/brand-02.png" alt="partner" />
+                                    </div>
+                                </div>
+                                <div className="swiper-slide">
+                                    <div className="brand-image text-center">
+                                        <img src="/assets/img/home-1/brand/brand-03.png" alt="partner" />
+                                    </div>
+                                </div>
+                                <div className="swiper-slide">
+                                    <div className="brand-image text-center">
+                                        <img src="/assets/img/home-1/brand/brand-04.png" alt="partner" />
+                                    </div>
+                                </div>
+                                <div className="swiper-slide">
+                                    <div className="brand-image text-center">
+                                        <img src="/assets/img/home-1/brand/brand-05.png" alt="partner" />
+                                    </div>
+                                </div>
+                                <div className="swiper-slide">
+                                    <div className="brand-image text-center">
+                                        <img src="/assets/img/home-1/brand/brand-06.png" alt="partner" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* About Feature Section Start */}
+                <section className="about-feature-section-2 section-padding fix">
+                    <div className="container">
+                        <div className="section-title text-center">
+                            <h6 className="sub-title wow fadeInUp"><img src="/assets/img/sub-title-1.svg" alt="img" />WHY SCiM LAB</h6>
+                            <h2 className="text-anim">Driving innovation through <br /> research and collaboration</h2>
+                        </div>
+                        <div className="about-feature-wrapper-2 style-2">
+                            <div className="about-shape">
+                                <img src="/assets/img/home-2/about/about-shape.png" alt="img" />
+                            </div>
+                            <div className="row g-4 align-items-center">
+                                <div className="col-lg-6 order-2 order-lg-1">
+                                    <div className="about-feature-image-items-style-2">
+                                        <img src="/assets/img/home-2/about-feature/about-feature-01.png" alt="SCiM LAB research" />
+                                        <div className="circle-image">
+                                            <img src="/assets/img/home-2/about-feature/circle-shape.png" alt="img" />
+                                            <div className="counter-items">
+                                                <h2><span className="count">12</span>+</h2>
+                                                <p>Active Projects</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6 order-1 order-lg-2 wow fadeInUp" data-wow-delay=".5s">
+                                    <div className="about-feature-content-items-style-2">
+                                        <div className="about-feature-icon-box mt-0">
+                                            <div className="icon">
+                                                <img src="/assets/img/home-2/about-feature/icon-01.svg" alt="img" />
+                                            </div>
+                                            <div className="content">
+                                                <h4>Expert Research Team</h4>
+                                                <p>Our multidisciplinary team of architects, engineers, and technologists brings decades of combined expertise to every project.</p>
+                                            </div>
+                                        </div>
+                                        <div className="about-feature-icon-box">
+                                            <div className="icon">
+                                                <img src="/assets/img/home-2/about-feature/icon-02.svg" alt="img" />
+                                            </div>
+                                            <div className="content">
+                                                <h4>Industry 4.0 Technologies</h4>
+                                                <p>Integrating IoT, AI, robotics, and digital fabrication to create practical solutions for real-world challenges.</p>
+                                            </div>
+                                        </div>
+                                        <div className="about-feature-icon-box">
+                                            <div className="icon">
+                                                <img src="/assets/img/home-2/about-feature/icon-03.svg" alt="img" />
+                                            </div>
+                                            <div className="content">
+                                                <h4>Frugal Innovation</h4>
+                                                <p>Developing affordable, scalable technologies that deliver maximum impact with minimal resources for communities across Africa.</p>
+                                            </div>
+                                        </div>
+                                        <a href="/services" className="theme-btn">
+                                        Explore Research Areas
+                                            <i className="fa-solid fa-arrow-up-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <ul className="custom-support-list wow fadeInUp" data-wow-delay=".7s">
+                            <li>
+                                <img src="/assets/img/home-1/about/check-icon.svg" alt="img" />
+                                UNESCO Recognition
+                            </li>
+                            <li>
+                                <img src="/assets/img/home-1/about/check-icon.svg" alt="img" />
+                                Global Partnerships
+                            </li>
+                            <li>
+                                <img src="/assets/img/home-1/about/check-icon.svg" alt="img" />
+                                Expert Researchers
+                            </li>
+                            <li>
+                                <img src="/assets/img/home-1/about/check-icon.svg" alt="img" />
+                                Sustainable Impact
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                {/* Project Section Start */}
+                <section className="project-section section-padding pt-0 pb-0">
+                    <div className="container">
+                        <div className="section-title-area">
+                            <div className="section-title">
+                                <h6 className="sub-title wow fadeInUp"><img src="/assets/img/sub-title-1.svg" alt="img" />OUR PROJECTS</h6>
+                            </div>
+                            <h2 className="text-anim">View Our Portfolio Of <br /> Research &amp; Innovation</h2>
+                        </div>
+                    </div>
+                    <div className="row g-2">
+                        <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                            <div className="project-thumb-box-items-style-1">
+                                <img src="/assets/img/home-1/project/project-01.jpg" alt="Shells of Elegance" />
+                                <div className="project-content">
+                                    <div className="text-items">
+                                        <h3><a href="/project-details">Shells of Elegance</a></h3>
+                                        <p>ARCHITECTURE, DESIGN</p>
+                                    </div>
+                                    <a href="/project-details" className="circle-icon">
+                                        <i className="fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="project-thumb-box-items-style-1 mt-2">
+                                <img src="/assets/img/home-1/project/project-03.jpg" alt="Frugal Digital Twinning" />
+                                <div className="project-content">
+                                    <div className="text-items">
+                                        <h3><a href="/project-details">Frugal Digital Twinning</a></h3>
+                                        <p>TECHNOLOGY, URBAN</p>
+                                    </div>
+                                    <a href="/project-details" className="circle-icon">
+                                        <i className="fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                            <div className="project-thumb-box-items-style-1">
+                                <img src="/assets/img/home-1/project/project-02.jpg" alt="RENABUMA BambooBend" />
+                                <div className="project-content">
+                                    <div className="text-items">
+                                        <h3><a href="/project-details">RENABUMA — BambooBend</a></h3>
+                                        <p>SUSTAINABILITY, FABRICATION</p>
+                                    </div>
+                                    <a href="/project-details" className="circle-icon">
+                                        <i className="fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div className="project-thumb-box-items-style-1 mt-2">
+                                <img src="/assets/img/home-1/project/project-04.jpg" alt="POINT Urban Mobility" />
+                                <div className="project-content">
+                                    <div className="text-items">
+                                        <h3><a href="/project-details">POINT — Urban Mobility</a></h3>
+                                        <p>TRANSPORT, RESEARCH</p>
+                                    </div>
+                                    <a href="/project-details" className="circle-icon">
+                                        <i className="fa-solid fa-arrow-up-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Feature Section Start */}
+                <section className="feature-section-2 counter-feature2 section-padding fix pt-0">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                                <div className="feature-box-items-2">
+                                    <h2>01</h2>
+                                    <div className="content">
+                                        <h4>Research</h4>
+                                        <p>Pioneering engineering research at the intersection of technology, sustainability, and urban design.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                                <div className="feature-box-items-2">
+                                    <h2>02</h2>
+                                    <div className="content">
+                                        <h4>Manufacturing</h4>
+                                        <p>Advanced manufacturing through additive techniques, robotics, and Industry 4.0 integration.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                                <div className="feature-box-items-2">
+                                    <h2>03</h2>
+                                    <div className="content">
+                                        <h4>Innovation</h4>
+                                        <p>Frugal innovation that delivers maximum impact with minimal resources for communities across Africa.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
+                                <div className="feature-box-items-2">
+                                    <h2>04</h2>
+                                    <div className="content">
+                                        <h4>Training</h4>
+                                        <p>Building capacity through STEAM education, entrepreneurship training, and professional development.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Work Process Section Start */}
+                <section className="work-prosec-section-3 section-padding pt-0">
+                    <div className="work-shape-1">
+                        <img src="/assets/img/home-3/work-prosce/shape-01.png" alt="img" />
+                    </div>
+                    <div className="work-shape-2">
+                        <img src="/assets/img/home-3/work-prosce/shape-02.png" alt="img" />
+                    </div>
+                    <div className="container">
+                        <div className="section-title text-center">
+                            <h6 className="sub-title color-2 wow fadeInUp"><img src="/assets/img/sub-title-3.svg" alt="img" />OUR APPROACH</h6>
+                            <h2 className="text-anim">From Concept to <br /> Real-World Impact</h2>
+                        </div>
+                        <div className="row">
+                            <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                                <div className="work-prosec-card-style-3 style-2">
+                                    <div className="icon">
+                                        <img src="/assets/img/home-3/work-prosce/icon-01.svg" alt="img" />
+                                    </div>
+                                    <div className="content">
+                                        <h3>Research &amp; Design</h3>
+                                        <p>Our multidisciplinary team identifies challenges and designs innovative solutions using cutting-edge research methodologies.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                                <div className="work-prosec-card-style-3">
+                                    <div className="icon">
+                                        <img src="/assets/img/home-3/work-prosce/icon-02.svg" alt="img" />
+                                    </div>
+                                    <div className="content">
+                                        <h3>Prototype &amp; Test</h3>
+                                        <p>We develop prototypes using frugal innovation principles, testing with real communities to ensure practical, scalable outcomes.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                                <div className="work-prosec-card-style-3 style-2">
+                                    <div className="icon">
+                                        <img src="/assets/img/home-3/work-prosce/icon-03.svg" alt="img" />
+                                    </div>
+                                    <div className="content">
+                                        <h3>Deploy &amp; Scale</h3>
+                                        <p>Successful solutions are deployed in real-world environments and scaled across communities for maximum impact.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Team Section Start */}
+                <section className="team-section section-padding fix">
+                    <div className="container">
+                        <div className="section-title text-center">
+                            <h6 className="sub-title wow fadeInUp"><img src="/assets/img/sub-title-1.svg" alt="img" />OUR TEAM</h6>
+                            <h2 className="text-anim">Meet Our Research Team</h2>
+                            <p className="mt-3 wow fadeInUp" data-wow-delay=".2s">A multidisciplinary team of architects, engineers, and technologists driving <br /> innovation at the intersection of smart cities and manufacturing.</p>
+                        </div>
+                    </div>
+                    <div className="swiper team-slider">
+                        <div className="swiper-wrapper">
+                            <div className="swiper-slide">
+                                <div className="team-box-items-style-1">
+                                    <div className="thumb">
+                                        <img src="/assets/Team/barnor.jpg" alt="Prof. Daniel Y. A. Duah" />
+                                    </div>
+                                    <div className="content">
+                                        <h3><a href="/team-details">Prof. Daniel Y. A. Duah</a></h3>
+                                        <p>Principal Investigator</p>
+                                        <div className="bottom-items">
+                                            <div className="social-icon d-flex">
+                                                <a href="https://www.linkedin.com/in/scimlab360" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in"></i></a>
+                                                <a href="https://twitter.com/Scimlab_360" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a>
+                                            </div>
+                                            <a href="/team-details" className="theme-btn">
+                                                View Profile
+                                                <i className="fa-solid fa-arrow-up-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="swiper-slide">
+                                <div className="team-box-items-style-1">
+                                    <div className="thumb">
+                                        <img src="/assets/Team/barnor.jpg" alt="Dr. Oliver Kornyo" />
+                                    </div>
+                                    <div className="content">
+                                        <h3><a href="/team-details">Dr. Oliver Kornyo</a></h3>
+                                        <p>Principal Investigator</p>
+                                        <div className="bottom-items">
+                                            <div className="social-icon d-flex">
+                                                <a href="https://www.linkedin.com/in/scimlab360" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in"></i></a>
+                                                <a href="https://twitter.com/Scimlab_360" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a>
+                                            </div>
+                                            <a href="/team-details" className="theme-btn">
+                                                View Profile
+                                                <i className="fa-solid fa-arrow-up-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="swiper-slide">
+                                <div className="team-box-items-style-1">
+                                    <div className="thumb">
+                                        <img src="/assets/Team/barnor.jpg" alt="Mr. Elisha Barnor" />
+                                    </div>
+                                    <div className="content">
+                                        <h3><a href="/team-details">Mr. Elisha Barnor</a></h3>
+                                        <p>Programmes Coordinator</p>
+                                        <div className="bottom-items">
+                                            <div className="social-icon d-flex">
+                                                <a href="https://www.linkedin.com/in/scimlab360" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in"></i></a>
+                                                <a href="https://twitter.com/Scimlab_360" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a>
+                                            </div>
+                                            <a href="/team-details" className="theme-btn">
+                                                View Profile
+                                                <i className="fa-solid fa-arrow-up-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="swiper-slide">
+                                <div className="team-box-items-style-1">
+                                    <div className="thumb">
+                                        <img src="/assets/Team/barnor.jpg" alt="Mr. Emmanuel Kusi Sarpong" />
+                                    </div>
+                                    <div className="content">
+                                        <h3><a href="/team-details">Mr. Emmanuel K. Sarpong</a></h3>
+                                        <p>Research Assistant</p>
+                                        <div className="bottom-items">
+                                            <div className="social-icon d-flex">
+                                                <a href="https://www.linkedin.com/in/scimlab360" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in"></i></a>
+                                                <a href="https://twitter.com/Scimlab_360" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-twitter"></i></a>
+                                            </div>
+                                            <a href="/team-details" className="theme-btn">
+                                                View Profile
+                                                <i className="fa-solid fa-arrow-up-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="swiper-dot">
+                            <div className="dot"></div>
+                        </div>
+                    </div>
+                </section>
+
+                {/* CTA Section Start */}
+                <section className="section-bg-3 pt-35">
+                    <div className="cta-section-3 mt-0">
+                        <div className="cta-image d-none d-xl-block">
+                            <img src="/assets/img/home-3/cta-image.png" alt="img" />
+                        </div>
+                        <div className="cta-shape d-none d-xl-block float-bob-y">
+                            <img src="/assets/img/home-3/cta-image-shape.png" alt="img" />
+                        </div>
+                        <div className="container">
+                            <div className="cta-wrapper-3">
+                                <div className="cta-content">
+                                    <h2 className="text-anim">Empowering Communities <br /> Through Innovation</h2>
+                                    <p className="wow fadeInUp" data-wow-delay=".2s">
+                                        Partner with SCiM LAB to drive smart city development and sustainable manufacturing solutions for the future.
+                                    </p>
+                                </div>
+                                <div className="circle-box">
+                                    <div className="text-image">
+                                        <img src="/assets/img/home-1/choose/text-3.png" alt="img" />
+                                    </div>
+                                    <a href="/contact" className="arrow-icon"><i className="fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+        {/* Footer Section Start */}
+        <footer className="footer-section-2 bg-cover" style={{backgroundImage: 'url(/assets/img/footer-bg.jpg)'}}>
+            <div className="footer-info-area-2">
+                <div className="container footer-info-container">
+                    <div className="footer-info-wrapper-2">
+                        <div className="info-items wow fadeInUp" data-wow-delay=".2s">
+                            <div className="icon"><img src="/assets/img/footer/icon-01.svg" alt="img" /></div>
+                            <div className="content">
+                                <h5>Call Us</h5>
+                                <h6><a href="tel:+233322060230">+233 (0) 32 206 0230</a></h6>
+                            </div>
+                        </div>
+                        <div className="info-items wow fadeInUp" data-wow-delay=".4s">
+                            <div className="icon"><img src="/assets/img/footer/icon-02.svg" alt="img" /></div>
+                            <div className="content">
+                                <h5>Email Us</h5>
+                                <h6><a href="mailto:scimlab@knust.edu.gh">scimlab@knust.edu.gh</a></h6>
+                            </div>
+                        </div>
+                        <div className="info-items wow fadeInUp" data-wow-delay=".6s">
+                            <div className="icon"><img src="/assets/img/footer/icon-03.svg" alt="img" /></div>
+                            <div className="content">
+                                <h5>Working Hours</h5>
+                                <h6>Mon - Fri: 8:00am - 5:00pm</h6>
+                            </div>
+                        </div>
+                        <div className="info-items border-none wow fadeInUp" data-wow-delay=".8s">
+                            <div className="icon"><img src="/assets/img/footer/icon-04.svg" alt="img" /></div>
+                            <div className="content">
+                                <h5>Location</h5>
+                                <h6>TCC-CIMET, KNUST, Kumasi</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container">
+                <div className="footer-widget-wrapper-2 footer-style-2">
+                    <div className="row">
+                        <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div className="single-footer-widget">
+                                <div className="widget-head">
+                                    <a href="/" className="footer-logo">
+                                    <img src="/assets/img/logo/white-logo.png" alt="SCiM LAB" className="white-logo-filter" style={{width: '200px'}} />
+                                    </a>
+                                </div>
+                                <div className="footer-content">
+                                    <p>
+                                        The Smart Cities and Manufacturing Lab at TCC-CIMET, KNUST — Innovating Today, Shaping Tomorrow.
+                                    </p>
+                                    <div className="social-icon d-flex align-items-center">
+                                        <a href="https://www.linkedin.com/in/scimlab360" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+                                        <a href="https://twitter.com/Scimlab_360" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                                        <a href="https://instagram.com/scim_lab" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div className="single-footer-widget">
+                                <div className="widget-head">
+                                    <h3>Quick Links</h3>
+                                </div>
+                                <ul className="list-area">
+                                    <li><a href="/about">About SCiM LAB</a></li>
+                                    <li><a href="/team">Our Team</a></li>
+                                    <li><a href="/contact">Contact Us</a></li>
+                                    <li><a href="/projects">Projects</a></li>
+                                    <li><a href="/faq">FAQs</a></li>
+                                    <li><a href="/news">News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div className="single-footer-widget">
+                                <div className="widget-head">
+                                    <h3>Research Areas</h3>
+                                </div>
+                                <ul className="list-area">
+                                    <li><a href="/service-details">Smart City Solutions</a></li>
+                                    <li><a href="/service-details">Advanced Manufacturing</a></li>
+                                    <li><a href="/service-details">Digital Twinning</a></li>
+                                    <li><a href="/service-details">Sustainable Architecture</a></li>
+                                    <li><a href="/service-details">Urban Mobility</a></li>
+                                    <li><a href="/service-details">Frugal Innovation</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                            <div className="single-footer-widget">
+                                <div className="widget-head">
+                                    <h3>Stay Updated</h3>
+                                </div>
+                                <div className="footer-content">
+                                    <p>
+                                        Subscribe to our newsletter for the latest research updates and events
+                                    </p>
+                                    <div className="footer-input">
+                                        <input type="email" id="email11" placeholder="Your email" />
+                                        <button className="theme-btn" type="submit">
+                                        SUBSCRIBE NOW
+                                        <i className="far fa-arrow-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="footer-bottom-2">
+                <div className="container">
+                    <div className="footer-bottom-wrapper-2 style-2 wow fadeInUp" data-wow-delay=".3s">
+                        <p className="text-center">&copy; 2026 SCiM LAB — TCC-CIMET, KNUST. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+            </div>
+        </div>
+    </>
+  )
+}
+
+export default About

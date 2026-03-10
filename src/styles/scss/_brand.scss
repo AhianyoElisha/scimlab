@@ -1,0 +1,21 @@
+.brand-section {
+    .top-text {
+        margin-bottom: 60px;
+        font-size: 18px;
+        color: #626262;
+        @include flex;
+        justify-content: center;
+        gap: 50px;
+
+        .line-1 {
+            display: inline-block;
+            width: 224px;
+            height: 1px;
+            background-color: rgba(25, 42, 25, 0.26);
+
+            @include breakpoint (max-lg){
+                display: none;
+            }
+        }
+    }
+}

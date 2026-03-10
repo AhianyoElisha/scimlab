@@ -1,0 +1,756 @@
+import React from 'react'
+
+function ShopDetails() {
+  return (
+    <>
+        {/* Offcanvas Area Start */}
+        <div className="fix-area">
+            <div className="offcanvas__info">
+                <div className="offcanvas__wrapper">
+                    <div className="offcanvas__content">
+                        <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                            <div className="offcanvas__logo">
+                                <a href="/">
+                                    <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{width: '250px'}}/>
+                                </a>
+                            </div>
+                            <div className="offcanvas__close">
+                                <button>
+                                    <i className="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <h3 className="offcanvas-title">SCiM LAB</h3>
+                        <p>The Smart Cities and Manufacturing Lab at TCC-CIMET, KNUST — Innovating Today, Shaping Tomorrow.</p>
+                        <div className="mobile-menu fix mt-15"></div>
+                        <div className="social-icon d-flex align-items-center">
+                            <a href="https://www.linkedin.com/in/scimlab360" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/Scimlab_360" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com/scim_lab" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                        </div>
+                        <div className="offcanvas__contact">
+                            <h3>Contact Us</h3>
+                            <ul className="contact-list">
+                                <li>
+                                    <div className="icon"><i className="fa-solid fa-phone-plus"></i></div>
+                                    <div className="content">
+                                        <p>Call Us</p>
+                                        <h4><a href="tel:+233322060230">+233 (0) 32 206 0230</a></h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon"><i className="fa-solid fa-envelopes"></i></div>
+                                    <div className="content">
+                                        <p>Send Email</p>
+                                        <h4><a href="mailto:scimlab@knust.edu.gh">scimlab@knust.edu.gh</a></h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon"><i className="fa-solid fa-location-dot"></i></div>
+                                    <div className="content">
+                                        <p>Location</p>
+                                        <h4>TCC-CIMET, KNUST, Kumasi, Ghana</h4>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                       <a href="/contact" className="theme-btn">Get In Touch <i className="fa-solid fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="offcanvas__overlay"></div>
+        
+        {/* Header Section Start */}
+        <header className="header-section-3">
+            <div className="header-top-section">
+                <div className="header-top-wrapper">
+                    <p>
+                    Smart Cities &amp; Manufacturing Lab — TCC-CIMET, KNUST <a href="/contact" className="icon">Let's Talk <img src="/assets/img/talk.svg" alt="" /></a>
+                    </p>
+                    <ul className="contact-list">
+                        <li>
+                            <div className="icon"><i className="fa-solid fa-envelopes"></i></div>
+                            <div className="content">
+                                <h4><a href="mailto:scimlab@knust.edu.gh">scimlab@knust.edu.gh</a></h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="icon"><i className="fa-solid fa-clock"></i></div>
+                            <div className="content">
+                                <h4>Mon - Fri: 8:00am - 5:00pm</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="icon"><i className="fa-solid fa-location-dot"></i></div>
+                            <div className="content">
+                                <h4>TCC-CIMET, KNUST, Kumasi</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="header-sticky" className="header-3">
+                <div className="mega-menu-wrapper">
+                    <div className="header-main">
+                       <a href="/" className="header-logo">
+                            <img src="/assets/img/logo/black-logo.png" style={{width: '250px'}} alt="SCiM LAB" />
+                        </a>
+                        <div className="header-right d-flex justify-content-end align-items-center">
+                            <div className="mean__menu-wrapper">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/about">About Us</a></li>
+                                        <li><a href="/team">Team</a></li>
+                                        <li><a href="/shop">Shop</a></li>
+                                        <li><a href="/services">Services</a></li>
+                                        <li><a href="/projects">Projects</a></li>
+                                        <li><a href="/news">News</a></li>
+                                        <li><a href="/contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div className="head-right">
+                                <div className="contact-item">
+                                    <div className="icon"><i className="fa-solid fa-phone-xmark"></i></div>
+                                    <div className="content">
+                                        <span>Call Us</span>
+                                        <h6><a href="tel:+233322060230">+233 (0) 32 206 0230</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="header__hamburger my-auto d-xl-none">
+                                <div className="sidebar__toggle">
+                                    <div className="header-bar">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                {/* Breadcrumb Section Start */}
+                <section className="breadcrumb-wrapper bg-cover fix" style={{backgroundImage: 'url(/assets/img/inner/breadcrumb-image.jpg)'}} >
+                    <div className="container">
+                        <div className="page-heading">
+                            <ul className="breadcrumb-list">
+                                <li>Home</li>
+                                <li>//</li>
+                                <li>Resource Details</li>
+                            </ul>
+                            <h1 className="breadcrumb-title">Resource Details</h1>
+                        </div>
+                    </div>
+                </section>
+
+
+        {/* Shop Details Section Start */}
+        <section className="shop-details-section section-padding">
+            <div className="container">
+                <div className="shop-details-wrapper">
+                    <div className="row">
+                        <div className="col-lg-5">
+                            <div className="shop-details-image">
+                            <div className="tab-content">
+                                <div id="thumb1" className="tab-pane fade show active">
+                                    <div className="shop-thumb">
+                                        <img src="/assets/img/inner/shop/shop-details-01.jpg" alt="img" />
+                                    </div>
+                                </div>
+                                <div id="thumb2" className="tab-pane fade">
+                                    <div className="shop-thumb">
+                                         <img src="/assets/img/inner/shop/shop-details-01.jpg" alt="img" />
+                                    </div>
+                                </div>
+                                <div id="thumb3" className="tab-pane fade">
+                                    <div className="shop-thumb">
+                                         <img src="/assets/img/inner/shop/shop-details-01.jpg" alt="img" />
+                                    </div>
+                                </div>
+                                </div>
+                                <ul className="nav mb-5">
+                                    <li className="nav-item">
+                                        <a href="#thumb1" data-bs-toggle="tab" className="nav-link ps-0 active">
+                                            <img src="/assets/img/inner/shop/shop-details-02.jpg" alt="img" />
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a href="#thumb2" data-bs-toggle="tab" className="nav-link">
+                                            <img src="/assets/img/inner/shop/shop-details-03.jpg" alt="img" />
+                                        </a>
+                                    </li>
+                                    <li className="nav-item">
+                                        <a href="#thumb3" data-bs-toggle="tab" className="nav-link">
+                                            <img src="/assets/img/inner/shop/shop-details-04.jpg" alt="img" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="col-lg-7">
+                            <div className="product-details-content">
+                            <div className="star pb-3 wow fadeInUp">
+                                <a href="#"> <i className="fas fa-star"></i></a>
+                                <a href="#"><i className="fas fa-star"></i></a>
+                                <a href="#"> <i className="fas fa-star"></i></a>
+                                <a href="#"><i className="fas fa-star"></i></a>
+                                <a href="#"><i className="fas fa-star"></i></a>
+                                <span>(02)</span>
+                            </div>
+                            <h2 className="pb-3 hero_title tv_hero_title hero_title_1 wow fadeInUp" data-wow-delay=".2s">Air-Purifying Plant for Bedroom Corners</h2>
+                            <p className="mb-3 wow fadeInUp" data-wow-delay=".4s">
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                            </p>
+                            <div className="price-list wow fadeInUp" data-wow-delay=".6s">
+                                <ul>
+                                    <li>
+                                        $899.00
+                                    </li>
+                                    <li>
+                                        <del>$999.00</del>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="cart-quantity">
+                                <p className="qty">
+                                    <button className="qtyminus" aria-hidden="true">−</button>
+                                    <input type="number" name="qty" id="qty2" min="1" max="10" step="1" value="1" />
+                                    <button className="qtyplus" aria-hidden="true">+</button>
+                                </p>
+                                <a href="/shop-details" className="shop-btn theme-btn">Add to cart</a>
+                                <div className="icon-item">
+                                    <a href="/shop-details" className="icon">
+                                        <i className="far fa-heart"></i>
+                                    </a>
+                                    <a href="/shop-details" className="icon">
+                                        <i className="far fa-share"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <h6 className="details-info"><span>SKU:</span> <a href="/shop-details">124224</a></h6>
+                            <h6 className="details-info"><span>Categories:</span> <a href="/shop-details">Crux Indoor Fast and Easy</a></h6>
+                            <h6 className="details-info"><span>Tags:</span> <a href="/shop-details">accessories, business</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="single-tab">
+                        <ul className="nav mb-5">
+                            <li className="nav-item">
+                            <a href="#description" data-bs-toggle="tab" className="nav-link ps-0 active">
+                                <h6>Description</h6>
+                            </a>
+                            </li>
+                            <li className="nav-item">
+                            <a href="#additional" data-bs-toggle="tab" className="nav-link">
+                                <h6>Additional Information  </h6>
+                            </a>
+                            </li>
+                            <li className="nav-item">
+                            <a href="#review" data-bs-toggle="tab" className="nav-link">
+                                <h6>reviews (3)</h6>
+                            </a>
+                            </li>
+                        </ul>
+                        <div className="tab-content">
+                            <div id="description" className="tab-pane fade show active">
+                            <div className="description-items">
+                                <div className="description-content">
+                                    <h3>Product descriptions</h3>
+                                    <p className="mb-4">
+                                        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.  When purchasing or selling a handcrafted painting, it's essential to have a clear understanding of these product details to make an informed decision and to provide potential buyers with a comprehensive description of the artwork. Additionally, the value and significance of a handcrafted painting can be influenced by factors like the artist's reputation, the rarity of the piece, and the demand for their work in the
+                                        art market.
+                                    </p>
+                                    <p>
+                                        When purchasing or selling a handcrafted painting, it's essential to have a clear understanding of these product details to make an informed decision and to provide potential buyers with a comprehensive description of the artwork. Additionally, the value and significance of a handcrafted painting can be influenced by factors like the artist's reputation, the rarity of the piece, and the demand for their work in the
+                                        art market.painting can be influenced by factors like the artist's reputation, the rarity of the piece, and the demand for their work in the
+                                        art market.
+                                    </p>
+                                    <div className="description-list-items d-flex justify-content-between">
+                                        <ul className="description-list">
+                                        <li>
+                                            Model wears:
+                                            <span>UK 10/ EU 38/ US 6</span>
+                                        </li>
+                                        <li>
+                                            Occasion:
+                                            <span> Lifestyle, Sport</span>
+                                        </li>
+                                        <li>
+                                            Country:
+                                            <span>Italy</span>
+                                        </li>
+                                        </ul>
+                                        <ul className="description-list">
+                                        <li>
+                                            Model wears:
+                                            <span>UK 10/ EU 38/ US 6</span>
+                                        </li>
+                                        <li>
+                                            Occasion:
+                                            <span> Lifestyle, Sport</span>
+                                        </li>
+                                        <li>
+                                            Country:
+                                            <span>Italy</span>
+                                        </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div id="additional" className="tab-pane fade">
+                            <div className="table-responsive mb-15">
+                                <table className="table table-bordered">
+                                    <tbody>
+                                        <tr>
+                                        <td>Weight</td>
+                                        <td>240 Ton</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Dimensions</td>
+                                        <td>20 × 30 × 40 cm</td>
+                                        </tr>
+                                        <tr>
+                                        <td>Colors</td>
+                                        <td>Black, Blue, Green</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            </div>
+                            <div id="review" className="tab-pane fade">
+                            <div className="review-items">
+                                <div className="admin-items d-flex flex-wrap flex-md-nowrap align-items-center pb-4">
+                                    <div className="admin-img pb-4 pb-md-0 me-4">
+                                        <img src="/assets/img/inner/shop/client-01.jpg" alt="image" />
+                                    </div>
+                                    <div className="content p-4">
+                                        <div className="head-content pb-1 d-flex flex-wrap justify-content-between">
+                                        <h5>miklos salsa<span>27June 2025 at 5.44pm</span></h5>
+                                        <div className="star">
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                        </div>
+                                        </div>
+                                        <p>
+                                        Comprehensive research documentation covering cutting-edge methodologies and findings from SCiM LAB interdisciplinary research programmes.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="admin-items d-flex flex-wrap flex-md-nowrap align-items-center pb-4">
+                                    <div className="admin-img pb-4 pb-md-0 me-4">
+                                        <img src="/assets/img/inner/shop/client-02.jpg" alt="image" />
+                                    </div>
+                                    <div className="content p-4">
+                                        <div className="head-content pb-1 d-flex flex-wrap justify-content-between">
+                                        <h5>Ethan Turner <span>27June 2025 at 5.44pm</span></h5>
+                                        <div className="star">
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                        </div>
+                                        </div>
+                                        <p>
+                                        Comprehensive research documentation covering cutting-edge methodologies and findings from SCiM LAB interdisciplinary research programmes.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="admin-items d-flex flex-wrap flex-md-nowrap align-items-center pb-4">
+                                    <div className="admin-img pb-4 pb-md-0 me-4">
+                                        <img src="/assets/img/inner/shop/client-03.png" alt="image" />
+                                    </div>
+                                    <div className="content p-4">
+                                        <div className="head-content pb-1 d-flex flex-wrap justify-content-between">
+                                        <h5>Devid Miller<span>27June 2025 at 5.44pm</span></h5>
+                                        <div className="star">
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                            <i className="fas fa-star"></i>
+                                        </div>
+                                        </div>
+                                        <p>
+                                        Comprehensive research documentation covering cutting-edge methodologies and findings from SCiM LAB interdisciplinary research programmes.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="review-title mt-5 py-15 mb-30">
+                                    <h4>add a review</h4>
+                                    <div className="rate-now d-flex align-items-center">
+                                        <p>Rate this product? *</p>
+                                        <div className="star">
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star"></i>
+                                        <i className="fas fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="review-form">
+                                    <form action="#" id="contact-form" method="POST">
+                                        <div className="row g-4">
+                                        <div className="col-lg-6">
+                                            <div className="form-clt">
+                                                <input type="text" name="name" id="name" placeholder="Full Name" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="form-clt">
+                                                <input type="text" name="email" id="email" placeholder="email addres" />
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-12 wow fadeInUp" data-wow-delay=".8">
+                                            <div className="form-clt-big form-clt">
+                                                <textarea name="message" id="message" placeholder="message"></textarea> 
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6 wow fadeInUp" data-wow-delay=".9">
+                                            <button type="submit" className="theme-btn">
+                                                Post Submit
+                                            </button>
+                                        </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        {/* shop Section Start */}
+        <section className="shop-cart-section section-padding fix pt-0">
+            <div className="container">
+                <div className="section-title mb-5 text-center">
+                    <h2 className="wow fadeInUp">
+                        Your Similar Products
+                    </h2>
+                </div>
+                <div className="row g-4">
+                    <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                        <div className="shop-box-style-item">
+                            <div className="shop-image">
+                                <img src="/assets/img/inner/shop/shop-09.jpg" alt="img" />
+                                <ul className="shop-icon d-grid justify-content-center align-items-center">
+                                    <li>
+                                        <a href="/shop-cart"><i className="far fa-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="/shop-cart">
+                                            <i className="far fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/shop-details"><i className="far fa-eye"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="shop-content">
+                                <span>BRIGHT TREE</span>
+                                <h5><a href="/shop-details">White wire</a></h5>
+                                <div className="star">
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="far fa-star"></i>
+                                </div>
+                                <ul>
+                                    <li>
+                                        $943.00
+                                    </li>
+                                    <li>
+                                        <del>$999.00</del>
+                                    </li>
+                                </ul>
+                                <a href="/shop-cart" className="theme-btn">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                        <div className="shop-box-style-item">
+                            <div className="shop-image">
+                                <img src="/assets/img/inner/shop/shop-04.jpg" alt="img" />
+                                <ul className="shop-icon d-grid justify-content-center align-items-center">
+                                    <li>
+                                        <a href="/shop-cart"><i className="far fa-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="/shop-cart">
+                                            <i className="far fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/shop-details"><i className="far fa-eye"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="shop-content">
+                                <span>BRIGHT TREE</span>
+                                <h5><a href="/shop-details">Lab Equipment</a></h5>
+                                <div className="star">
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="far fa-star"></i>
+                                </div>
+                                <ul>
+                                    <li>
+                                        $178.00
+                                    </li>
+                                    <li>
+                                        <del>$216.00</del>
+                                    </li>
+                                </ul>
+                                <a href="/shop-cart" className="theme-btn">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                        <div className="shop-box-style-item">
+                            <div className="shop-image">
+                                <img src="/assets/img/inner/shop/shop-05.jpg" alt="img" />
+                                <ul className="shop-icon d-grid justify-content-center align-items-center">
+                                    <li>
+                                        <a href="/shop-cart"><i className="far fa-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="/shop-cart">
+                                            <i className="far fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/shop-details"><i className="far fa-eye"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="shop-content">
+                                <span>BRIGHT TREE</span>
+                                <h5><a href="/shop-details">Research Publication</a></h5>
+                                <div className="star">
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="far fa-star"></i>
+                                </div>
+                                <ul>
+                                    <li>
+                                        $943.00
+                                    </li>
+                                    <li>
+                                        <del>$999.00</del>
+                                    </li>
+                                </ul>
+                                <a href="/shop-cart" className="theme-btn">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                        <div className="shop-box-style-item">
+                            <div className="shop-image">
+                                <img src="/assets/img/inner/shop/shop-06.jpg" alt="img" />
+                                <ul className="shop-icon d-grid justify-content-center align-items-center">
+                                    <li>
+                                        <a href="/shop-cart"><i className="far fa-heart"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="/shop-cart">
+                                            <i className="far fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="/shop-details"><i className="far fa-eye"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="shop-content">
+                                <span>BRIGHT TREE</span>
+                                <h5><a href="/shop-details">Weight machine</a></h5>
+                                <div className="star">
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="fas fa-star"></i>
+                                    <i className="far fa-star"></i>
+                                </div>
+                                <ul>
+                                    <li>
+                                        $199.00
+                                    </li>
+                                    <li>
+                                        <del>$216.00</del>
+                                    </li>
+                                </ul>
+                                <a href="/shop-cart" className="theme-btn">ADD TO CART</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                {/* CTA Section Start */}
+                <section className="cta-section">
+                    <div className="container">
+                        <div className="cta-wrapper">
+                            <div className="cta-image wow fadeInUp" data-wow-delay=".2s">
+                                <img src="/assets/img/home-1/cta-image.png" alt="img" />
+                            </div>
+                            <h3 className="text-anim">Innovating Today, Shaping Tomorrow <br /> with Smart Solutions</h3>
+                            <a href="/contact" className="theme-btn wow fadeInUp" data-wow-delay=".4s">
+                                Learn More
+                                <i className="fa-solid fa-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+
+                {/* Footer Section Start */}
+                <footer className="footer-section-2 bg-cover" style={{backgroundImage: 'url(/assets/img/footer-bg.jpg)'}}>
+                    <div className="footer-info-area-2">
+                        <div className="container footer-info-container">
+                            <div className="footer-info-wrapper-2">
+                                <div className="info-items wow fadeInUp" data-wow-delay=".2s">
+                                    <div className="icon"><img src="/assets/img/footer/icon-01.svg" alt="img" /></div>
+                                    <div className="content">
+                                        <h5>Call Us</h5>
+                                        <h6><a href="tel:+233322060230">+233 (0) 32 206 0230</a></h6>
+                                    </div>
+                                </div>
+                                <div className="info-items wow fadeInUp" data-wow-delay=".4s">
+                                    <div className="icon"><img src="/assets/img/footer/icon-02.svg" alt="img" /></div>
+                                    <div className="content">
+                                        <h5>Email Us</h5>
+                                        <h6><a href="mailto:scimlab@knust.edu.gh">scimlab@knust.edu.gh</a></h6>
+                                    </div>
+                                </div>
+                                <div className="info-items wow fadeInUp" data-wow-delay=".6s">
+                                    <div className="icon"><img src="/assets/img/footer/icon-03.svg" alt="img" /></div>
+                                    <div className="content">
+                                        <h5>Working Hours</h5>
+                                        <h6>Mon - Fri: 8:00am - 5:00pm</h6>
+                                    </div>
+                                </div>
+                                <div className="info-items border-none wow fadeInUp" data-wow-delay=".8s">
+                                    <div className="icon"><img src="/assets/img/footer/icon-04.svg" alt="img" /></div>
+                                    <div className="content">
+                                        <h5>Location</h5>
+                                        <h6>TCC-CIMET, KNUST, Kumasi</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container">
+                        <div className="footer-widget-wrapper-2 footer-style-2">
+                            <div className="row">
+                                <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                                    <div className="single-footer-widget">
+                                        <div className="widget-head">
+                                            <a href="/" className="footer-logo">
+                                            <img src="/assets/img/logo/white-logo.png" alt="SCiM LAB" className="white-logo-filter" style={{width: '200px'}} />
+                                            </a>
+                                        </div>
+                                        <div className="footer-content">
+                                            <p>
+                                                The Smart Cities and Manufacturing Lab at TCC-CIMET, KNUST — Innovating Today, Shaping Tomorrow.
+                                            </p>
+                                            <div className="social-icon d-flex align-items-center">
+                                                <a href="https://www.linkedin.com/in/scimlab360" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+                                                <a href="https://twitter.com/Scimlab_360" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                                                <a href="https://instagram.com/scim_lab" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".4s">
+                                    <div className="single-footer-widget">
+                                        <div className="widget-head">
+                                            <h3>Quick Links</h3>
+                                        </div>
+                                        <ul className="list-area">
+                                            <li><a href="/about">About SCiM LAB</a></li>
+                                            <li><a href="/team">Our Team</a></li>
+                                            <li><a href="/contact">Contact Us</a></li>
+                                            <li><a href="/projects">Projects</a></li>
+                                            <li><a href="/faq">FAQs</a></li>
+                                            <li><a href="/news">News</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".6s">
+                                    <div className="single-footer-widget">
+                                        <div className="widget-head">
+                                            <h3>Research Areas</h3>
+                                        </div>
+                                        <ul className="list-area">
+                                            <li><a href="/service-details">Smart City Solutions</a></li>
+                                            <li><a href="/service-details">Advanced Manufacturing</a></li>
+                                            <li><a href="/service-details">Digital Twinning</a></li>
+                                            <li><a href="/service-details">Sustainable Architecture</a></li>
+                                            <li><a href="/service-details">Urban Mobility</a></li>
+                                            <li><a href="/service-details">Frugal Innovation</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                                    <div className="single-footer-widget">
+                                        <div className="widget-head">
+                                            <h3>Stay Updated</h3>
+                                        </div>
+                                        <div className="footer-content">
+                                            <p>
+                                                Subscribe to our newsletter for the latest research updates and events
+                                            </p>
+                                            <div className="footer-input">
+                                                <input type="email" id="email11" placeholder="Your email" />
+                                                <button className="theme-btn" type="submit">
+                                                SUBSCRIBE NOW
+                                                <i className="far fa-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="footer-bottom-2">
+                        <div className="container">
+                            <div className="footer-bottom-wrapper-2 style-2 wow fadeInUp" data-wow-delay=".3s">
+                                <p className="text-center">&copy; 2026 SCiM LAB — TCC-CIMET, KNUST. All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+
+        {/* << All JS Plugins >> */}
+    </>
+  )
+}
+
+export default ShopDetails

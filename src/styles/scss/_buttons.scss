@@ -1,0 +1,71 @@
+.theme-btn {
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    vertical-align: middle;
+    display: inline-block;
+    border: none;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 30px;
+    background: $theme-color;
+    font-family: 'DM Sans', sans-serif;
+    color: #091613;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    padding: 7px 7px 7px 32px;
+
+    @include breakpoint (max-sm){
+        padding: 7px 7px 7px 22px;
+    }
+
+    i {
+        margin-left: 20px;
+        @include transition;
+        width: 41px;
+        height: 41px;
+        line-height: 41px;
+        border-radius: 50%;
+        background-color: #091613;
+        color: $theme-color;
+
+         @include breakpoint (max-sm){
+            margin-left: 10px;
+            width: 32px;
+            height: 32px;
+            line-height: 32px;
+        }
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        bottom: 0;
+        left: 0;
+        width: 0;
+         background-color: #091613;
+        z-index: -1;
+        transition: all 0.4s ease-out;
+        border-radius: inherit;
+    }
+
+    &:hover {
+        color: $white;
+        box-shadow: none;
+
+        &::before {
+            width: 100%;
+        }
+
+        i {
+            background-color: $theme-color;
+            color: #091613;
+        }
+    }
+
+    @include breakpoint (max-sm){
+        font-size: 14px;
+    }
+}

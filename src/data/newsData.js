@@ -1,0 +1,148 @@
+const newsArticles = [
+  {
+    slug: "shells-of-elegance-organic-cube",
+    title: "Shells of Elegance 2.0: Building the Human-Scale Organic Cube",
+    category: "PROJECT",
+    author: "SCiM LAB",
+    date: "15 Jan, 2026",
+    day: "15",
+    month: "JAN",
+    image: "/assets/media/1.jpg",
+    detailsImage: "/assets/img/inner/news/news-details-01.jpg",
+    shortDesc:
+      "The Shells of Elegance project reaches a major milestone with the completion of a full-scale organic cube prototype that demonstrates the potential of computational design and sustainable fabrication.",
+    content: [
+      "The Shells of Elegance 2.0 project represents a significant leap forward in SCiM LAB's research into organic architectural forms. By combining advanced computational design tools with hands-on fabrication techniques, the team has created a full-scale prototype that challenges conventional approaches to building design.",
+      "Central to the project is the exploration of shell geometry — structures that derive their strength from their curved form rather than material thickness. This approach allows for lighter, more material-efficient buildings that are both structurally sound and visually striking.",
+      "The fabrication process involved close collaboration between researchers, students, and local craftspeople. By integrating digital tools with traditional building knowledge, the team developed methods that are both innovative and accessible, ensuring that the research outcomes can be applied in resource-constrained contexts.",
+    ],
+    quote: {
+      text: "Architecture should be a dialogue between technology and craft — where computational precision meets the warmth of human hands.",
+      author: "Dr.-Ing. Alexander B. Marful",
+      image: "/assets/img/inner/news/news-details-client.png",
+    },
+    highlights: [
+      "Parametric design tools used to optimise shell geometry for structural performance.",
+      "Full-scale prototype constructed using locally available materials.",
+      "Cross-disciplinary collaboration between architecture, engineering, and computer science.",
+      "Project outcomes published in international peer-reviewed journals.",
+    ],
+    secondaryImage: "/assets/img/inner/news/news-details-02.jpg",
+    lookingForward: [
+      "The project is now entering its next phase, with plans to scale the construction techniques for community building applications.",
+      "SCiM LAB is seeking further partnerships to expand the research into different climatic and material contexts across West Africa.",
+      "A comprehensive monograph documenting the full project journey is in preparation for publication.",
+    ],
+    tags: ["Architecture", "Fabrication", "Computational Design"],
+  },
+  {
+    slug: "bamboobend-sustainable-building",
+    title: "BambooBend: SCiM LAB and DDF-KIT Redefine Sustainable Building",
+    category: "COLLABORATION",
+    author: "SCiM LAB",
+    date: "08 Dec, 2025",
+    day: "08",
+    month: "DEC",
+    image: "/assets/media/2.jpg",
+    detailsImage: "/assets/img/inner/news/news-details-01.jpg",
+    shortDesc:
+      "The RENABUMA/BambooBend collaboration between SCiM LAB and DDF-KIT Karlsruhe demonstrates that bamboo can be transformed into a high-performance structural material for sustainable architecture.",
+    content: [
+      "The BambooBend project, a collaboration between SCiM LAB at KNUST and the Digital Design and Fabrication group at KIT Karlsruhe, is redefining what is possible with bamboo as a construction material. Through innovative bending techniques and rigorous structural testing, the team has shown that bamboo can rival conventional materials in both strength and versatility.",
+      "Bamboo is one of the most sustainable building materials available — it grows rapidly, sequesters carbon, and is abundantly available across tropical regions. Yet its use in contemporary architecture has been limited by challenges in processing and standardisation. The BambooBend project addresses these challenges head-on.",
+      "The research has involved multiple collaborative workshops in both Ghana and Germany, bringing together students and researchers to develop, test, and refine bamboo construction techniques. These workshops have produced several prototype structures that demonstrate the aesthetic and structural potential of bent bamboo.",
+    ],
+    quote: {
+      text: "Bamboo is not a poor man's timber — it is a material of extraordinary potential waiting for innovative engineering to unlock it.",
+      author: "Dr.-Ing. Alexander B. Marful",
+      image: "/assets/img/inner/news/news-details-client.png",
+    },
+    highlights: [
+      "Novel bamboo bending techniques developed through iterative prototyping.",
+      "Structural testing confirmed high load-bearing capacity of bent bamboo elements.",
+      "Collaborative workshops between KNUST and KIT students fostered knowledge exchange.",
+      "Research contributes to sustainable building practices in tropical climates.",
+    ],
+    secondaryImage: "/assets/img/inner/news/news-details-02.jpg",
+    lookingForward: [
+      "The team is planning a large-scale bamboo pavilion as a permanent campus installation at KNUST.",
+      "A joint publication with DDF-KIT documenting the bending techniques is in preparation.",
+      "Future workshops will involve community builders to ensure knowledge transfer beyond academia.",
+    ],
+    tags: ["Sustainability", "Bamboo", "Collaboration"],
+  },
+  {
+    slug: "frugal-digital-twinning-smart-cities",
+    title: "Frugal Digital Twinning for Smart Cities in Developing Countries",
+    category: "RESEARCH",
+    author: "SCiM LAB",
+    date: "20 Nov, 2025",
+    day: "20",
+    month: "NOV",
+    image: "/assets/media/1.jpg",
+    detailsImage: "/assets/img/inner/news/news-details-01.jpg",
+    shortDesc:
+      "SCiM LAB's frugal digital twinning research is making smart city technology accessible for developing nations through low-cost IoT sensors and AI-driven analytics.",
+    content: [
+      "Digital twins — virtual replicas of physical systems — are transforming urban management in cities around the world. But the high cost of sensor infrastructure and computing platforms has placed this technology out of reach for many developing cities. SCiM LAB's Frugal Digital Twinning project is changing that.",
+      "By deploying networks of low-cost IoT sensors in Accra and Kumasi, the research team has created real-time digital representations of urban infrastructure that provide actionable insights for city planners and administrators. The approach prioritises affordability without sacrificing analytical capability.",
+      "The AI-driven analytics layer processes sensor data to identify patterns, predict maintenance needs, and support evidence-based decision making. This combination of frugal hardware and intelligent software demonstrates that smart city technology can be both accessible and impactful in resource-constrained environments.",
+    ],
+    quote: {
+      text: "Innovation is not about technology alone — it is about creating meaningful change that improves lives and builds resilient communities.",
+      author: "Dr.-Ing. Alexander B. Marful",
+      image: "/assets/img/inner/news/news-details-client.png",
+    },
+    highlights: [
+      "Low-cost IoT sensor networks deployed across two major Ghanaian cities.",
+      "Cloud-based digital twin platform providing real-time urban monitoring.",
+      "AI analytics enabling predictive maintenance and resource optimisation.",
+      "Research model designed for replication across other developing nations.",
+    ],
+    secondaryImage: "/assets/img/inner/news/news-details-02.jpg",
+    lookingForward: [
+      "The digital twinning platform is being expanded to include environmental monitoring for air quality and flood risk.",
+      "Partnerships with local government authorities are being formalised for long-term data-driven urban planning.",
+      "The research findings will be presented at several international smart city conferences in 2026.",
+    ],
+    tags: ["Technology", "IoT", "Smart Cities"],
+  },
+  {
+    slug: "point-urban-mobility-research",
+    title: "POINT Project: Understanding Urban Mobility in Rwanda and Ghana",
+    category: "RESEARCH",
+    author: "Dr.-Ing. Alexander B. Marful",
+    date: "05 Oct, 2025",
+    day: "05",
+    month: "OCT",
+    image: "/assets/img/inner/news/news-01.jpg",
+    detailsImage: "/assets/img/inner/news/news-details-01.jpg",
+    shortDesc:
+      "The POINT project is building an evidence base for transport policy by documenting real mobility patterns and challenges faced by urban residents in Rwanda and Ghana.",
+    content: [
+      "Understanding how people actually move through cities is essential for designing transport systems that work. The POINT project, a multi-country research initiative, is documenting the real transport experiences of urban residents in Rwanda and Ghana to build an evidence base for better mobility policy.",
+      "Through extensive surveys, GPS tracking studies, and community consultations, the research team has gathered detailed data on travel patterns, mode choices, journey times, and the barriers that prevent people from accessing essential services. The findings reveal significant gaps in transport equity.",
+      "The project's policy recommendations are grounded in this evidence, offering practical pathways for improving urban mobility that are tailored to the specific contexts of Kigali, Kumasi, and Accra. By bridging the gap between research and policy, POINT is contributing to more inclusive and sustainable urban transport.",
+    ],
+    quote: {
+      text: "Mobility is not just about infrastructure — it is about ensuring every person can reach the opportunities they need to thrive.",
+      author: "Dr.-Ing. Alexander B. Marful",
+      image: "/assets/img/inner/news/news-details-client.png",
+    },
+    highlights: [
+      "Multi-country research across Rwanda and Ghana capturing diverse urban contexts.",
+      "GPS tracking and survey data providing rich insights into real mobility patterns.",
+      "Evidence-based policy recommendations for inclusive urban transport.",
+      "Community engagement ensuring research reflects lived experience.",
+    ],
+    secondaryImage: "/assets/img/inner/news/news-details-02.jpg",
+    lookingForward: [
+      "A policy brief is being prepared for distribution to transport ministries in both countries.",
+      "The dataset is being made available for further academic research through open data platforms.",
+      "Follow-up studies will track the impact of any policy changes informed by the research.",
+    ],
+    tags: ["Urban Mobility", "Transport", "Research"],
+  },
+];
+
+export default newsArticles;

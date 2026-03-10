@@ -1,0 +1,324 @@
+.cta-section {
+    background-color: $theme-color;
+    margin-top: 25px;
+
+    @include breakpoint (max-xl){
+        margin-top: 0;
+    }
+}
+
+.cta-wrapper {
+    @include flex;
+    justify-content: space-between;
+
+    @include breakpoint (max-xl){
+       flex-wrap: wrap;
+       gap: 30px;
+       padding: 50px 0;
+       justify-content: center;
+
+       h3 {
+            max-width: 700px;
+            margin: 0 auto;
+       }
+    }
+
+    @include breakpoint (max-lg){
+        text-align: center;
+    }
+
+    .cta-image {
+        margin-top: -25px;
+
+        @include breakpoint (max-xl){
+           display: none;
+        }
+    }
+
+    h3 {
+        font-size: 36px;
+        font-weight: 700;
+
+        @include breakpoint (max-sm){
+            font-size: 30px;
+        }
+    }
+
+    .theme-btn {
+        background-color: $header-color;
+        color: $white;
+
+        &::before {
+            background-color: $white;
+        }
+
+        i {
+            background-color: $theme-color;
+            color: $header-color;
+        }
+
+        &:hover {
+            color: $header-color;
+        }
+    }
+}
+
+.cta-section-2 {
+    position: relative;
+    z-index: 9;
+    border-radius: 0 0 20px 20px;
+    margin: 0 15px;
+    padding: 90px 0;
+
+    &::before {
+        @include before;
+        z-index: -1;
+        border-radius: 0 0 20px 20px;
+        border-radius: 0 0 20px 20px;
+        background: linear-gradient(90deg, rgba(191, 221, 52, 0.79) 9.84%, #000C69 35.32%);
+    }
+}
+
+.cta-wrapper-2 {
+    @include flex;
+    justify-content: space-between;
+
+    @include breakpoint (max-xl){
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    h3 {
+        font-size: 36px;
+        font-weight: 700;
+        max-width: 425px;
+
+        @include breakpoint (max-sm){
+            font-size: 28px;
+        }
+    }
+
+    .cta-icon-items {
+        @include flex;
+        gap: 20px;
+
+        .content {
+            h4 {
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 5px;
+            }
+
+            p {
+                color: $header-color;
+                opacity: .8;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .theme-btn {
+        background-color: $header-color;
+        color: $white;
+
+        &::before {
+            background-color: $white;
+        }
+
+        i {
+            background-color: $theme-color;
+            color: $header-color;
+        }
+
+        &:hover {
+            color: $header-color;
+        }
+    }
+}
+
+.cta-banner-section-2 {
+    border-radius: 115px 115px 0 0;
+    margin: 0 15px;
+    position: relative;
+    z-index: 9;
+
+    @include breakpoint (max-xl){
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    &::before {
+        @include before;
+        z-index: -1;
+        border-radius: 115px 115px 0 0;
+        background: linear-gradient(255deg, rgba(0, 0, 0, 0.28) 18.51%, rgba(0, 0, 0, 0.37) 62.73%);
+
+         @include breakpoint (max-xl){
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    }
+}
+
+
+.cta-banner-content-2 {
+    position: relative;
+    z-index: 9;
+    padding: 200px 0 145px;
+
+    .circle-box {
+        width: 160px;
+        height: 160px;
+        line-height: 160px;
+        border-radius: 50%;
+        text-align: center;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.07);
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        backdrop-filter: blur(10.699999809265137px);
+
+
+        .text-image {
+            img {
+                width: initial;
+                height: initial;
+                animation: cir36 10s 
+                linear infinite;
+            }
+        }
+
+        .arrow-icon {
+            color: $white;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% ,-50%);
+            width: 45px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.16);
+            i {
+                transform: rotate(-45deg);
+                @include transition;
+            }
+        }
+    }
+
+    h2 {
+        font-size: 118px;
+        font-weight: 800;
+        text-align: center;
+        color: $white;
+        letter-spacing: -5.9px;
+        text-transform: uppercase;
+        line-height: 110%;
+        margin-top: 40px;
+
+        	@include breakpoint(max-xl){
+                font-size: 90px;
+                letter-spacing: initial;
+            }
+
+            @include breakpoint(max-lg){
+                font-size: 78px;
+            }
+
+            @include breakpoint(max-md){
+                font-size: 60px;
+            }
+
+            @include breakpoint(max-sm){
+                font-size: 55px;
+            }
+
+            @include breakpoint(max-xxs){
+                font-size: 42px;
+            }
+    }
+}
+
+.cta-section-3 {
+    background-color: $theme-color-3;
+    padding: 75px 0;
+    position: relative;
+    margin-top: 35px;
+
+    .cta-image {
+        position: absolute;
+        bottom: 0;
+        left: 57%;
+        transform: translateX(-50%);
+    }
+
+    .cta-shape {
+        position: absolute;
+        top: 50%;
+        left: 66%;
+    }
+}
+
+.cta-wrapper-3 {
+    @include flex;
+    justify-content: space-between;
+
+    @include breakpoint (max-md){
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cta-content {
+        h2 {
+            font-size: 46px;
+            font-weight: 700;
+            color: $white;
+
+            @include breakpoint (max-sm){
+                font-size: 38px;
+            }
+        }
+
+        p {
+            max-width: 520px;
+            color: $white;
+            margin-top: 10px;
+        }
+    }
+
+    .circle-box {
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        background-color: $white;
+        border-radius: 50%;
+        text-align: center;
+        position: relative;
+
+        .text-image {
+            img {
+                width: initial;
+                height: initial;
+                animation: cir36 10s 
+                linear infinite;
+            }
+        }
+
+        .arrow-icon {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50% ,-50%);
+
+            i {
+                transform: rotate(-45deg);
+                @include transition;
+                color: $theme-color-3;
+            }
+        }
+    }
+}

@@ -1,0 +1,801 @@
+import React from 'react'
+
+function Team() {
+  return (
+    <>
+{/* Offcanvas Area Start */}
+        <div className="fix-area">
+            <div className="offcanvas__info style-2">
+                <div className="offcanvas__wrapper">
+                    <div className="offcanvas__content">
+                        <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                            <div className="offcanvas__logo">
+                                <a href="/">
+                                    <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
+                                </a>
+                            </div>
+                            <div className="offcanvas__close">
+                                <button>
+                                    <i className="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <h3 className="offcanvas-title">Hello There!</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi natus quasi sunt eum ducimus. </p>
+                        <div className="mobile-menu fix mt-15"></div>
+                        <div className="social-icon d-flex align-items-center">
+                            <a href="javascript:void(0)"><i className="fab fa-facebook-f"></i></a>
+                            <a href="javascript:void(0)"><i className="fab fa-twitter"></i></a>
+                            <a href="javascript:void(0)"><i className="fab fa-youtube"></i></a>
+                            <a href="javascript:void(0)"><i className="fab fa-linkedin-in"></i></a>
+                        </div>
+
+                        <div className="offcanvas__contact">
+                            <h3>Contact Us</h3>
+                            <ul className="contact-list">
+                                <li>
+                                    <div className="icon">
+                                       <i className="fa-solid fa-phone-plus"></i>
+                                    </div>
+                                    <div className="content">
+                                        <p>Call Us</p>
+                                        <h4><a href="tel:+4903983493999">+49 (03) 9834 939 99</a></h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon">
+                                       <i className="fa-solid fa-envelopes"></i>
+                                    </div>
+                                    <div className="content">
+                                        <p>Send Email</p>
+                                        <h4><a href="mailto:yordomain@gmial.com">yordomain@gmial.com</a></h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon">
+                                       <i className="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <div className="content">
+                                        <p>Location</p>
+                                        <h4>
+                                            Chicago 53755 NY, USA
+                                        </h4>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                       <a href="/contact" className="theme-btn">Get A Quote <i className="fa-solid fa-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="offcanvas__overlay"></div>
+
+        {/* Header Section Start */}
+        <header className="header-section-3">
+            <div className="header-top-section">
+                <div className="header-top-wrapper">
+                    <p>
+                    Metal fabrication & engineering services. <a href="/contact" className="icon">Let’s Talk <img src="/assets/img/talk.svg" alt="" /></a>
+                    </p>
+                    <ul className="contact-list">
+                        <li>
+                            <div className="icon">
+                                <i className="fa-solid fa-envelopes"></i>
+                            </div>
+                            <div className="content">
+                                <h4><a href="mailto:yordomain@gmial.com">yordomain@gmial.com</a></h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="icon">
+                                <i className="fa-solid fa-clock"></i>
+                            </div>
+                            <div className="content">
+                                <h4>Mon - Fri: 09am - 07pm</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="icon">
+                                <i className="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div className="content">
+                                <h4>
+                                Graaf Floriss 22A CH NY
+                                </h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="header-sticky" className="header-3">
+                <div className="mega-menu-wrapper">
+                    <div className="header-main">
+                       <a href="/" className="header-logo">
+                            <img src="/assets/img/logo/white-logo.svg" alt="img" />
+                        </a>
+                        <div className="header-right d-flex justify-content-end align-items-center">
+                            <div className="mean__menu-wrapper">
+                            <div className="main-menu">
+                               <nav id="mobile-menu">
+                                <ul>
+                                    <li className="has-dropdown menu-thumb">
+                                        <a href="javascript:void(0)">
+                                            Home
+                                            <i className="fas fa-chevron-down"></i>
+                                        </a>
+                                        <ul className="submenu has-homemenu">
+                                            <li>
+                                                <div className="homemenu-items">
+                                                    <div className="row row-cols-xl-4 row-cols-md-2 row-cols-2">
+                                                        <div className="col homemenu">
+                                                            <div className="homemenu-thumb">
+                                                                <a href="/">
+                                                                    <img src="/assets/img/header/home-1.jpg" alt="img" />
+                                                                </a>
+                                                            </div>
+                                                            <div className="homemenu-content text-center">
+                                                                <h4 className="homemenu-title">
+                                                                    <a href="/">
+                                                                       Home Solar 01
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col homemenu">
+                                                            <div className="homemenu-thumb mb-15">
+                                                                <a href="/">
+                                                                    <img src="/assets/img/header/home-2.jpg" alt="img" />
+                                                                </a>
+                                                            </div>
+                                                            <div className="homemenu-content text-center">
+                                                                <h4 className="homemenu-title">
+                                                                    <a href="/">
+                                                                        Home Solar 02
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col homemenu">
+                                                            <div className="homemenu-thumb mb-15">
+                                                                <a href="/">
+                                                                    <img src="/assets/img/header/home-3.jpg" alt="img" />
+                                                                </a>
+                                                            </div>
+                                                            <div className="homemenu-content text-center">
+                                                                <h4 className="homemenu-title">
+                                                                    <a href="/">
+                                                                       Environment
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col homemenu">
+                                                            <div className="homemenu-thumb mb-15">
+                                                                <a href="/">
+                                                                    <img src="/assets/img/header/home-4.jpg" alt="img" />
+                                                                </a>
+                                                            </div>
+                                                            <div className="homemenu-content text-center">
+                                                                <h4 className="homemenu-title">
+                                                                    <a href="/">
+                                                                        Hydro Energy
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col homemenu">
+                                                            <div className="homemenu-thumb mb-15">
+                                                                <a href="/">
+                                                                    <img src="/assets/img/header/home-5.jpg" alt="img" />
+                                                                </a>
+                                                            </div>
+                                                            <div className="homemenu-content text-center">
+                                                                <h4 className="homemenu-title">
+                                                                    <a href="/">
+                                                                        Hydro Power
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col homemenu">
+                                                            <div className="homemenu-thumb mb-15">
+                                                                <a href="/">
+                                                                    <img src="/assets/img/header/home-6.jpg" alt="img" />
+                                                                </a>
+                                                            </div>
+                                                            <div className="homemenu-content text-center">
+                                                                <h4 className="homemenu-title">
+                                                                <a href="/">
+                                                                       Wind & Energy
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col homemenu">
+                                                            <div className="homemenu-thumb mb-15">
+                                                                <a href="/">
+                                                                    <img src="/assets/img/header/home-7.jpg" alt="img" />
+                                                                </a>
+                                                            </div>
+                                                            <div className="homemenu-content text-center">
+                                                                <h4 className="homemenu-title">
+                                                                    <a href="/">
+                                                                       Renewable & Energy
+                                                                    </a>
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                        <div className="col homemenu">
+                                                            <div className="homemenu-thumb mb-15">
+                                                                <img src="/assets/img/header/home-8.jpg" alt="img" />
+                                                            </div>
+                                                            <div className="homemenu-content text-center">
+                                                                <h4 className="homemenu-title">
+                                                                    Coming Soon
+                                                                </h4>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li className="has-dropdown active d-xl-none">
+                                        <a href="javascript:void(0)" className="border-none">
+                                        Home
+                                        </a>
+                                        <ul className="submenu">
+                                            <li><a href="/">Home Solar 01</a></li>
+                                            <li><a href="/">Home Solar 02</a></li>
+                                            <li><a href="/">Environment</a></li>
+                                            <li><a href="/">Hydro Energy</a></li>
+                                            <li><a href="/">Hydro Power</a></li>
+                                            <li><a href="/"> Wind & Energy</a></li>
+                                            <li><a href="/">Renewable & Energy</a></li>
+                                        </ul>
+                                    </li>
+                                    <li className="has-dropdown">
+                                        <a href="javascript:void(0)">
+                                            Pages
+                                            <i className="fas fa-chevron-down"></i>
+                                        </a>
+                                        <ul className="submenu">
+                                            <li>
+                                                <a href="/about">About Us</a>
+                                            </li>
+                                            <li className="has-dropdown">
+                                                <a href="javascript:void(0)">
+                                                    Our Team
+                                                    <i className="fas fa-angle-right"></i>
+                                                </a>
+                                                <ul className="submenu">
+                                                    <li><a href="/team">Our Team</a></li>
+                                                    <li><a href="/team-details">Team Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li className="has-dropdown">
+                                                <a href="javascript:void(0)">
+                                                    Shop Page
+                                                    <i className="fas fa-angle-right"></i>
+                                                </a>
+                                                <ul className="submenu">
+                                                    <li><a href="/shop">Shop Page</a></li>
+                                                    <li><a href="/shop-details">Shop Details</a></li>
+                                                    <li><a href="/shop-cart">Shop Cart</a></li>
+                                                    <li><a href="/checkout">CheckOut</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="/pricing">Pricing Plan</a></li>
+                                            <li><a href="/faq">Faqs</a></li>
+                                            <li><a href="/404">404 Error</a></li>
+                                        </ul>
+                                    </li>
+                                        <li>
+                                        <a href="javascript:void(0)">
+                                            Services
+                                            <i className="fas fa-chevron-down"></i>
+                                        </a>
+                                        <ul className="submenu">
+                                            <li><a href="/services">Our Services</a></li>
+                                            <li><a href="/service-details">Service Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            Projects
+                                            <i className="fas fa-chevron-down"></i>
+                                        </a>
+                                        <ul className="submenu">
+                                            <li><a href="/projects">Our Project</a></li>
+                                            <li><a href="/project-details">Project Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0)">
+                                            News
+                                            <i className="fas fa-chevron-down"></i>
+                                        </a>
+                                        <ul className="submenu">
+                                            <li><a href="/news">Our News</a></li>
+                                            <li><a href="/news-details">News Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/contact">
+                                            Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            </div>
+                        </div>
+                            <div className="head-right">
+                                <a href="#" className="main-header__search search-toggler">
+                                    <i className="fa-regular fa-magnifying-glass"></i>
+                                </a>
+                                <div className="contact-item">
+                                    <div className="icon">
+                                       <i className="fa-solid fa-phone-xmark"></i>
+                                    </div>
+                                    <div className="content">
+                                        <span>Call Us 24/7</span>
+                                        <h6>
+                                            <a href="tel:+00479394888">+00 (47) 939 4888</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                                <div className="line-shape"></div>
+                                <div className="flag-wrap">
+                                    <div className="flag">
+                                        <img src="/assets/img/flag.png" alt="flag" />
+                                    </div>
+                                    <select className="single-select w-100">
+                                        <option>EN</option>
+                                        <option>AU</option>
+                                        <option>NZ</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div className="header__hamburger my-auto d-xl-none">
+                                <div className="sidebar__toggle">
+                                    <div className="header-bar">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        {/* Search Start */}
+        <div className="search-popup">
+            <div className="search-popup__overlay search-toggler"></div>
+            <div className="search-popup__content">
+                <form role="search" method="get" className="search-popup__form" action="#">
+                    <input type="text" id="search" name="search" placeholder="Search Here..." />
+                    <button type="submit" aria-label="search submit" className="search-btn">
+                        <span><i className="fa-regular fa-magnifying-glass"></i></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                {/* Breadcrumb Section Start */}
+                <section className="breadcrumb-wrapper bg-cover fix" style={{backgroundImage: 'url(/assets/img/inner/breadcrumb-image.jpg)'}}>
+                    <div className="container">
+                        <div className="page-heading">
+                            <ul className="breadcrumb-list">
+                                <li>Home</li>
+                                <li>//</li>
+                                <li>Our Team</li>
+                            </ul>
+                            <h1 className="breadcrumb-title">Our Team</h1>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Team Section Start */}
+                <section className="team-section-inner section-padding fix">
+                    <div className="row g-4">
+                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp">
+                            <div className="team-box-items-style-1 mt-0">
+                                <div className="thumb">
+                                    <img src="/assets/img/home-1/team/team-01.jpg" alt="img" />
+                                </div>
+                                <div className="content">
+                                    <h3><a href="/team-details">David Taylor</a></h3>
+                                    <p>Solar Energy Engineer</p>
+                                    <div className="bottom-items">
+                                        <div className="social-icon d-flex">
+                                            <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                                            <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                        <a href="/team-details" className="theme-btn">
+                                            View Profile
+                                            <i className="fa-solid fa-arrow-up-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div className="team-box-items-style-1 mt-0">
+                                <div className="thumb">
+                                    <img src="/assets/img/home-1/team/team-02.jpg" alt="img" />
+                                </div>
+                                <div className="content">
+                                    <h3><a href="/team-details">John Smith</a></h3>
+                                    <p>Solar Energy Engineer</p>
+                                    <div className="bottom-items">
+                                        <div className="social-icon d-flex">
+                                            <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                                            <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                        <a href="/team-details" className="theme-btn">
+                                            View Profile
+                                            <i className="fa-solid fa-arrow-up-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            <div className="team-box-items-style-1 mt-0">
+                                <div className="thumb">
+                                    <img src="/assets/img/home-1/team/team-03.jpg" alt="img" />
+                                </div>
+                                <div className="content">
+                                    <h3><a href="/team-details">William John</a></h3>
+                                    <p>Solar Energy Engineer</p>
+                                    <div className="bottom-items">
+                                        <div className="social-icon d-flex">
+                                            <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                                            <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                        <a href="/team-details" className="theme-btn">
+                                            View Profile
+                                            <i className="fa-solid fa-arrow-up-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div className="team-box-items-style-1 mt-0">
+                                <div className="thumb">
+                                    <img src="/assets/img/home-1/team/team-04.jpg" alt="img" />
+                                </div>
+                                <div className="content">
+                                    <h3><a href="/team-details">Shophia Taylor</a></h3>
+                                    <p>Solar Energy Engineer</p>
+                                    <div className="bottom-items">
+                                        <div className="social-icon d-flex">
+                                            <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                                            <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                        <a href="/team-details" className="theme-btn">
+                                            View Profile
+                                            <i className="fa-solid fa-arrow-up-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                            <div className="team-box-items-style-1 mt-0">
+                                <div className="thumb">
+                                    <img src="/assets/img/inner/team/team-02.jpg" alt="img" />
+                                </div>
+                                <div className="content">
+                                    <h3><a href="/team-details">David William</a></h3>
+                                    <p>Solar Energy Engineer</p>
+                                    <div className="bottom-items">
+                                        <div className="social-icon d-flex">
+                                            <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                                            <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                        <a href="/team-details" className="theme-btn">
+                                            View Profile
+                                            <i className="fa-solid fa-arrow-up-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".9s">
+                            <div className="team-box-items-style-1 mt-0">
+                                <div className="thumb">
+                                    <img src="/assets/img/inner/team/team-03.jpg" alt="img" />
+                                </div>
+                                <div className="content">
+                                    <h3><a href="/team-details">Jeson Michel</a></h3>
+                                    <p>Solar Energy Engineer</p>
+                                    <div className="bottom-items">
+                                        <div className="social-icon d-flex">
+                                            <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                                            <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                            <a href="#"><i className="fa-brands fa-instagram"></i></a>
+                                            <a href="#"><i className="fa-brands fa-linkedin-in"></i></a>
+                                        </div>
+                                        <a href="/team-details" className="theme-btn">
+                                            View Profile
+                                            <i className="fa-solid fa-arrow-up-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="page-nav-wrap text-center">
+                        <ul>
+                            <li className="active"><a className="page-numbers" href="javascript:void(0)"><i className="fa-solid fa-arrow-left"></i></a></li>
+                            <li><a className="page-numbers" href="javascript:void(0)">01</a></li>
+                            <li><a className="page-numbers" href="javascript:void(0)">02</a></li>
+                            <li className="active"><a className="page-numbers" href="javascript:void(0)"><i className="fa-solid fa-arrow-right"></i></a></li>
+                        </ul>
+                    </div>
+                </section>
+
+                {/* Cta Section Start */}
+                <section className="cta-section">
+                    <div className="container">
+                        <div className="cta-wrapper">
+                            <div className="cta-image wow fadeInUp" data-wow-delay=".2s">
+                                <img src="/assets/img/home-1/cta-image.png" alt="img" />
+                            </div>
+                            <h3 className="text-anim">Power Your Home or Business <br /> with Green Energy</h3>
+                            <a href="/contact" className="theme-btn wow fadeInUp" data-wow-delay=".4s">
+                                Learn More
+                                <i className="fa-solid fa-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                {/* Footer Section Start */}
+                <footer className="footer-section bg-cover" style={{backgroundImage: 'url(/assets/img/home-1/footer-bg.jpg)'}}>
+                    <div className="container">
+                        <div className="footer-widget-wrapper">
+                            <div className="row align-items-xl-end">
+                                <div className="col-xl-4 col-lg-6 col-md-7 wow fadeInUp" data-wow-delay=".2s">
+                                    <div className="footer-widget-items">
+                                        <div className="widget-head">
+                                            <a href="/">
+                                                <img src="/assets/img/logo/white-logo.svg" alt="img" />
+                                            </a>
+                                        </div>
+                                        <div className="footer-content">
+                                        <h3 className="title">
+                                                Harness the Sun Get Solar Power Today!
+                                        </h3>
+                                        <a href="/contact" className="theme-btn">
+                                                Contact Us Today
+                                                <i className="fa-solid fa-arrow-up-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-2 col-lg-3 col-md-5 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                                    <div className="footer-widget-items">
+                                        <div className="widget-head">
+                                            <h3>
+                                                Useful Link
+                                            </h3>
+                                        </div>
+                                        <ul className="list-area">
+                                            <li>
+                                                <a href="/about">
+                                                    <i className="fa-regular fa-chevrons-right"></i> About Company
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/team">
+                                                    <i className="fa-regular fa-chevrons-right"></i> Meet Member
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/contact">
+                                                    <i className="fa-regular fa-chevrons-right"></i> Contact Us
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/contact">
+                                                    <i className="fa-regular fa-chevrons-right"></i> 24/7 Support
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/faq">
+                                                    <i className="fa-regular fa-chevrons-right"></i> Our FAQs
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/pricing">
+                                                    <i className="fa-regular fa-chevrons-right"></i> Pricing Plan
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                                    <div className="footer-widget-items">
+                                        <div className="widget-head">
+                                            <h3>
+                                                Our Services
+                                            </h3>
+                                        </div>
+                                        <ul className="list-area">
+                                            <li>
+                                                <a href="/service-details">
+                                                    <i className="fa-regular fa-chevrons-right"></i> Solar Maintenance
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/service-details">
+                                                    <i className="fa-regular fa-chevrons-right"></i> Energy Saving Devices
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/service-details">
+                                                    <i className="fa-regular fa-chevrons-right"></i> Solar Solutions
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/service-details">
+                                                    <i className="fa-regular fa-chevrons-right"></i> Renewable Energy
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/service-details">
+                                                    <i className="fa-regular fa-chevrons-right"></i> Hybrid Energy
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/service-details">
+                                                    <i className="fa-regular fa-chevrons-right"></i> Solar PV Systems
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                                    <div className="footer-widget-items footer-contact-form">
+                                        <div className="footer-shape">
+                                            <img src="/assets/img/home-1/footer-shape.png" alt="img" />
+                                        </div>
+                                        <div className="footer-shape-2">
+                                            <img src="/assets/img/home-1/footer-shape-2.png" alt="img" />
+                                        </div>
+                                        <div className="icon">
+                                            <img src="/assets/img/home-1/email.svg" alt="img" />
+                                        </div>
+                                        <h3>Sign Up to Our Newsletter</h3>
+                                        <p>
+                                            Subscribe to our Newsletter and Event right now to be updated
+                                        </p>
+                                        <form action="#">
+                                            <input type="text" placeholder="Your email" />
+                                            <button className="theme-btn" type="submit">
+                                                Subscribe Now
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="footer-info-bottom">
+                            <div className="info-item wow fadeInUp" data-wow-delay=".2s">
+                                <div className="icon">
+                                    <img src="/assets/img/home-1/icon/icon1.svg" alt="" />
+                                </div>
+                                <div className="content">
+                                    <h6>Contact us:</h6>
+                                    <p>
+                                        <a href="tel:+483939993900">+483 9399 939 00</a>
+                                    </p>
+                                    <p className="mt-2">
+                                        <a href="mailto:info@example.com">helloEcoly@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="info-item wow fadeInUp" data-wow-delay=".4s">
+                                <div className="icon">
+                                    <img src="/assets/img/home-1/icon/icon2.svg" alt="" />
+                                </div>
+                                <div className="content">
+                                    <h6>Our Location:</h6>
+                                    <p>
+                                        2220 Plymouth Rd 302, Hopkins, <br /> New York, USA
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="info-item wow fadeInUp" data-wow-delay=".6s">
+                                <div className="icon">
+                                    <img src="/assets/img/home-1/icon/icon3.svg" alt="" />
+                                </div>
+                                <div className="content">
+                                    <h6>Working Time:</h6>
+                                    <p>
+                                    Mon - Fri: 8:00am - 6.00pm <br />
+                                        Sunday: Closed
+                                    </p>
+                                </div>
+                            </div>
+                            <div className="social-icon-list wow fadeInUp" data-wow-delay=".8s">
+                                <h5>Follow Us:</h5>
+                                <div className="social-icon">
+                                    <a href="javascript:void(0)"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="javascript:void(0)"><i className="fab fa-twitter"></i></a>
+                                    <a href="javascript:void(0)"><i className="fab fa-vimeo-v"></i></a>
+                                    <a href="javascript:void(0)"><i className="fab fa-pinterest-p"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="footer-bottom wow fadeInUp" data-wow-delay=".9s">
+                        <div className="container">
+                            <p className="text-1">© 2025 SCIMLAB. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+       
+        
+
+        {/* << All JS Plugins >> */}
+        
+        {/* << Viewport Js >> */}
+        
+        {/* << Bootstrap Js >> */}
+        
+        {/* << Gsap Min Js >> */}
+        
+        {/* << ScrollTrigger Min Js >> */}
+        
+        {/* << ScrollSmoother Min Js >> */}
+        
+        {/* << ScrollToPlugin Min Js >> */}
+        
+        {/* << SplitText Min Js >> */}
+        
+        {/* << TextPlugin Min Js >> */}
+        
+        {/* << nice-selec Js >> */}
+        
+        {/* << Waypoints Js >> */}
+        
+        {/* << Counterup Js >> */}
+        
+        {/* << Swiper Slider Js >> */}
+        
+        {/* << MeanMenu Js >> */}
+        
+        {/* << Magnific Popup Js >> */}
+        
+        {/* << Wow Animation Js >> */}
+        
+        {/* << Main.js >> */}
+    </>
+  )
+}
+
+export default Team

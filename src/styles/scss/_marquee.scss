@@ -1,0 +1,165 @@
+.scrolling-wrap {
+	//overflow: hidden;
+	white-space: nowrap;
+	display: flex;
+	gap: 30px;
+    position: relative;
+    z-index: 999;
+	margin-top: -20px;
+
+	&::before {
+		  position: absolute;
+		content: "";
+		width: 50%;
+		height: 181%;
+		inset-inline-start: 0;
+		inset-block-start: 0;
+		background: linear-gradient(90deg, #4653B8, transparent);
+		z-index: 2;
+		top: -92%;
+
+		@include breakpoint (max-xxl){
+			display: none;
+		}
+	}
+
+	&::after {
+		  position: absolute;
+		content: "";
+		width: 50%;
+		height: 181%;
+		right: 0;
+		background: linear-gradient(270deg, #4653B8, transparent);
+
+		z-index: 2;
+		top: -92%;
+
+		@include breakpoint (max-xxl){
+			display: none;
+		}
+	}
+
+	.comm {
+		display: flex;
+		align-items: center;
+		animation: scroll 60s linear infinite;
+		gap: 40px;
+		cursor: pointer;
+
+		.cmn-textslide {
+			font-size: 118px;
+            font-weight: 800;
+            line-height: 1;
+			text-transform: uppercase;
+            font-family: $heading-font;
+            @include flex;
+            gap: 30px;
+            @include transition;
+            color: $white;
+            letter-spacing: -5.9px;
+
+			@include breakpoint (max-sm){
+				font-size: 90px;
+			}
+
+		}
+	}
+
+	&.color-2 {
+		.comm {
+			.cmn-textslide {
+				color: $header-color;
+			}
+		}
+	}
+
+	&:hover {
+		.comm {
+			animation-play-state: paused;
+		}
+	}
+
+	@include breakpoint (max-xxl) {
+		.comm {
+			gap: 20px;
+		}
+	}
+
+	@include breakpoint (max-lg) {
+		gap: 14px;
+		.comm {
+			gap: 14px;
+		}
+	}
+
+	@include breakpoint (max-sm) {
+		.comm {
+			gap: 12px;
+		}
+	}
+}
+
+.marquee-section-2 {
+	&.marquee-style {
+		.scrolling-wrap {
+			&::before {
+			position: absolute;
+			content: "";
+			width: 50%;
+			height: 181%;
+			inset-inline-start: 0;
+			inset-block-start: 0;
+			background: linear-gradient(90deg, #fff, transparent);
+			z-index: 2;
+			top: -92%;
+
+			@include breakpoint (max-xxl){
+				display: none;
+			}
+		}
+
+			&::after {
+				position: absolute;
+				content: "";
+				width: 50%;
+				height: 181%;
+				right: 0;
+				background: linear-gradient(270deg, #fff, transparent);
+
+				z-index: 2;
+				top: -92%;
+
+				@include breakpoint (max-xxl){
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
+
+@keyframes scrolly {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-60%);
+	}
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}

@@ -1,0 +1,583 @@
+import React from 'react'
+
+function NewsDetails() {
+  return (
+    <>
+        {/* Offcanvas Area Start */}
+        <div className="fix-area">
+            <div className="offcanvas__info">
+                <div className="offcanvas__wrapper">
+                    <div className="offcanvas__content">
+                        <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
+                            <div className="offcanvas__logo">
+                                <a href="/">
+                                    <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{width: '250px'}}/>
+                                </a>
+                            </div>
+                            <div className="offcanvas__close">
+                                <button>
+                                    <i className="fas fa-times"></i>
+                                </button>
+                            </div>
+                        </div>
+                        <h3 className="offcanvas-title">SCiM LAB</h3>
+                        <p>The Smart Cities and Manufacturing Lab at TCC-CIMET, KNUST — Innovating Today, Shaping Tomorrow.</p>
+                        <div className="mobile-menu fix mt-15"></div>
+                        <div className="social-icon d-flex align-items-center">
+                            <a href="https://www.linkedin.com/in/scimlab360" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+                            <a href="https://twitter.com/Scimlab_360" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com/scim_lab" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                        </div>
+                        <div className="offcanvas__contact">
+                            <h3>Contact Us</h3>
+                            <ul className="contact-list">
+                                <li>
+                                    <div className="icon"><i className="fa-solid fa-phone-plus"></i></div>
+                                    <div className="content">
+                                        <p>Call Us</p>
+                                        <h4><a href="tel:+233322060230">+233 (0) 32 206 0230</a></h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon"><i className="fa-solid fa-envelopes"></i></div>
+                                    <div className="content">
+                                        <p>Send Email</p>
+                                        <h4><a href="mailto:scimlab@knust.edu.gh">scimlab@knust.edu.gh</a></h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon"><i className="fa-solid fa-location-dot"></i></div>
+                                    <div className="content">
+                                        <p>Location</p>
+                                        <h4>TCC-CIMET, KNUST, Kumasi, Ghana</h4>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                       <a href="/contact" className="theme-btn">Get In Touch <i className="fa-solid fa-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div className="offcanvas__overlay"></div>
+        
+        {/* Header Section Start */}
+        <header className="header-section-3">
+            <div className="header-top-section">
+                <div className="header-top-wrapper">
+                    <p>
+                    Smart Cities &amp; Manufacturing Lab — TCC-CIMET, KNUST <a href="/contact" className="icon">Let's Talk <img src="/assets/img/talk.svg" alt="" /></a>
+                    </p>
+                    <ul className="contact-list">
+                        <li>
+                            <div className="icon"><i className="fa-solid fa-envelopes"></i></div>
+                            <div className="content">
+                                <h4><a href="mailto:scimlab@knust.edu.gh">scimlab@knust.edu.gh</a></h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="icon"><i className="fa-solid fa-clock"></i></div>
+                            <div className="content">
+                                <h4>Mon - Fri: 8:00am - 5:00pm</h4>
+                            </div>
+                        </li>
+                        <li>
+                            <div className="icon"><i className="fa-solid fa-location-dot"></i></div>
+                            <div className="content">
+                                <h4>TCC-CIMET, KNUST, Kumasi</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="header-sticky" className="header-3">
+                <div className="mega-menu-wrapper">
+                    <div className="header-main">
+                       <a href="/" className="header-logo">
+                            <img src="/assets/img/logo/black-logo.png" style={{width: '250px'}} alt="SCiM LAB" />
+                        </a>
+                        <div className="header-right d-flex justify-content-end align-items-center">
+                            <div className="mean__menu-wrapper">
+                                <nav id="mobile-menu">
+                                    <ul>
+                                        <li><a href="/">Home</a></li>
+                                        <li><a href="/about">About Us</a></li>
+                                        <li><a href="/team">Team</a></li>
+                                        <li><a href="/shop">Shop</a></li>
+                                        <li><a href="/services">Services</a></li>
+                                        <li><a href="/projects">Projects</a></li>
+                                        <li><a href="/news">News</a></li>
+                                        <li><a href="/contact">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div className="head-right">
+                                <div className="contact-item">
+                                    <div className="icon"><i className="fa-solid fa-phone-xmark"></i></div>
+                                    <div className="content">
+                                        <span>Call Us</span>
+                                        <h6><a href="tel:+233322060230">+233 (0) 32 206 0230</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="header__hamburger my-auto d-xl-none">
+                                <div className="sidebar__toggle">
+                                    <div className="header-bar">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+                {/* Breadcrumb Section Start */}
+                <section className="breadcrumb-wrapper bg-cover fix" style={{backgroundImage: 'url(/assets/img/inner/breadcrumb-image.jpg)'}} >
+                    <div className="container">
+                        <div className="page-heading">
+                            <ul className="breadcrumb-list">
+                                <li>Home</li>
+                                <li>//</li>
+                                <li>News Details</li>
+                            </ul>
+                            <h1 className="breadcrumb-title">News Details</h1>
+                        </div>
+                    </div>
+                </section>
+
+
+        {/* News Details Section Start */}
+        <section className="news-details-section section-padding">
+            <div className="container">
+                <div className="news-details-wrapper">
+                    <div className="row g-4">
+                        <div className="col-lg-8 col-12">
+                            <div className="news-details-post">
+                                <div className="news-details-image wow fadeInUp">
+                                    <img src="/assets/img/inner/news/news-details-01.jpg" alt="img" />
+                                </div>
+                                <div className="news-details-content">
+                                    <ul className="news-list wow fadeInUp" data-wow-delay=".2s">
+                                        <li>
+                                            <i className="flaticon-date"></i>
+                                            MAY 24, 2025
+                                        </li>
+                                        <li className="style-1">
+                                            Transport
+                                        </li>
+                                    </ul>
+                                    <h2 className="wow fadeInUp" data-wow-delay=".4s">
+                                        A Guide to Creating Spaces You Never Miss
+                                    </h2>
+                                    <p className="mb-3 wow fadeInUp" data-wow-delay=".5s">
+                                       In a world where education serves as the cornerstone of progress and development,   stands as a beacon of hope, dedicated to transforming lives through education. This article explores the mission, initiatives, and impact of [Charity Name] in addressing educational challenges and empowering individuals and communities.
+                                    </p>
+                                    <p className="mb-3 wow fadeInUp" data-wow-delay=".6s">
+                                        Risehand was founded with a clear mission — to champion education as a catalyst for positive change. The charity envisions a future where education is accessible to all, irrespective of socio-economic backgrounds, and serves as the key to unlocking human potential.
+                                    </p>
+                                    <p className="mb-3 wow fadeInUp" data-wow-delay=".7s">
+                                        The issues that trigger strong emotional reactions often point to your core values. Whether it’s seeing animals mistreated, hearing stories of systemic racism, or watching the effects of climate change—emotions can be a compass. Write down a few topics that consistently catch your attention, and ask yourself why they matter to you. Write down a few topics that consistently catch your attention
+                                    </p>
+                                    <div className="sideber wow fadeInUp" data-wow-delay=".8s">
+                                        <h3>
+                                            Accusamus et iusto odio dignissimos ducimus qui blanditiis lorem voluptatum.”
+                                        </h3>
+                                        <div className="info-item-area">
+                                            <div className="client-info">
+                                                <div className="client-image">
+                                                    <img src="/assets/img/inner/news/news-details-client.png" alt="img" />
+                                                </div>
+                                                <span>Dr.-Ing. Alexander B. Marful</span>
+                                            </div>
+                                            <div className="icon">
+                                                <svg width="64" height="50" viewBox="0 0 64 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M56.5 22.5H41.5V17.5C41.5 10.6075 47.1075 5 54 5H61.5C62.8808 5 64 3.88075 64 2.5C64 1.11925 62.8808 0 61.5 0H54C44.3505 0 36.5 7.8505 36.5 17.5V42.5C36.5 46.6355 39.8645 50 44 50H56.5C60.6355 50 64 46.6355 64 42.5V30C64 25.8645 60.6355 22.5 56.5 22.5ZM59 42.5C59 43.8785 57.8785 45 56.5 45H44C42.6215 45 41.5 43.8785 41.5 42.5V27.5H56.5C57.8785 27.5 59 28.6215 59 30V42.5Z" fill="#4653B8"/>
+<path d="M17.5 5H25C26.3808 5 27.5 3.88075 27.5 2.5C27.5 1.11925 26.3808 0 25 0H17.5C7.8505 0 0 7.8505 0 17.5V42.5C0 46.6355 3.3645 50 7.5 50H20C24.1355 50 27.5 46.6355 27.5 42.5V30C27.5 25.8645 24.1355 22.5 20 22.5H5V17.5C5 10.6075 10.6075 5 17.5 5ZM22.5 30V42.5C22.5 43.8785 21.3785 45 20 45H7.5C6.1215 45 5 43.8785 5 42.5V27.5H20C21.3785 27.5 22.5 28.6215 22.5 30Z" fill="#4653B8"/>
+                                                </svg>
+                                             </div>
+                                        </div>
+                                    </div>
+                                    <h4 className="wow fadeInUp" data-wow-delay=".9s">SCiM LAB Teamtein named partner atom</h4>
+                                    <p className="wow fadeInUp" data-wow-delay=".2s">
+                                        Mauris nullam the as integer quam dolor nunc semper. Ornare non nulla faucibus pulvinar vulputate neque. The as Suscipit tristique nam enim mauris consectetur as platea. The Cras aliquet accumsan. Egestas ut eget egestas as ultrices diam.
+                                    </p>
+                                    <ul className="list wow fadeInUp" data-wow-delay=".3s">
+                                        <li>
+                                            <img src="/assets/img/inner/service/check-icon.svg" alt="img" />
+                                            A deliverable for workshop participants.
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/inner/service/check-icon.svg" alt="img" />
+                                           Create a structure where participants will add their information.
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/inner/service/check-icon.svg" alt="img" />
+                                           Many contradicting opinions a vision document.
+                                        </li>
+                                        <li>
+                                            <img src="/assets/img/inner/service/check-icon.svg" alt="img" />
+                                           Efforts without a focus.
+                                        </li>
+                                    </ul>
+                                    <div className="news-image-2">
+                                        <img src="/assets/img/inner/news/news-details-02.jpg" alt="img" />
+                                    </div>
+                                    <h4 className="text wow fadeInUp" data-wow-delay=".2s">An elevated shopping experience</h4>
+                                    <ul className="list-item wow fadeInUp" data-wow-delay=".4s">
+                                        <li>
+                                            Expound the actual teachings of the great explorer of the of happiness. rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know .
+                                        </li>
+                                        <li>
+                                            On the other hand, we denounce with righteous indignation and dislike men who are so beguiled demoralized by the charms of pleasure of the moment.
+                                        </li>
+                                        <li>
+                                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, aperiam.
+                                        </li>
+                                    </ul>
+                                    <div className="comment-area wow fadeInUp" data-wow-delay=".6s">
+                                        <h3>03 Comments</h3>
+                                        <div className="blog-single-comment">
+                                        <div className="image">
+                                           <img src="/assets/img/inner/news/comment-1.png" alt="image" />
+                                        </div>
+                                        <div className="content">
+                                            <h6>by <span>John Doe</span>  -  2 months ago</h6>
+                                            <div className="single-box">
+                                                <p>
+                                                    Vivamus gravida felis et nibh tristique viverra. Sed vel tortor id ex accumsan lacinia. Interdum et malesuada fames ac ante ipsum primis in faucibus
+                                                </p>
+                                            </div>
+                                            <a href="/news-details" className="reply">Reply<i className="fa-solid fa-arrow-right-long"></i></a>
+                                        </div>
+                                      </div>
+                                       <div className="blog-single-comment style-2">
+                                        <div className="image">
+                                            <img src="/assets/img/inner/news/comment-2.png" alt="image" />
+                                        </div>
+                                        <div className="content">
+                                            <h6>by <span>Dr.-Ing. Alexander B. Marful</span>  -  2 months ago</h6>
+                                            <div className="single-box">
+                                                <p>
+                                                    Gravida felis et nibh tristique viverra. Sed vel tortor id ex accumsan lacinia. Interdum et malesuada fames ac ante ipsum.
+                                                </p>
+                                            </div>
+                                            <a href="/news-details" className="reply">Reply<i className="fa-solid fa-arrow-right-long"></i></a>
+                                        </div>
+                                      </div>
+                                      <div className="blog-single-comment mb-0">
+                                        <div className="image">
+                                           <img src="/assets/img/inner/news/comment-3.png" alt="image" />
+                                        </div>
+                                        <div className="content">
+                                            <h6>by <span>John Michel</span>  -  2 months ago</h6>
+                                            <div className="single-box">
+                                                <p>
+                                                    Gravida felis et nibh tristique viverra. Sed vel tortor id ex accumsan lacinia. Interdum et malesuada fames ac ante ipsum.
+                                                </p>
+                                            </div>
+                                            <a href="/news-details" className="reply">Reply<i className="fa-solid fa-arrow-right-long"></i></a>
+                                        </div>
+                                      </div>
+                                      <div className="comment-form-wrap wow fadeInUp" data-wow-delay=".5s">
+                                        <h3>Leave a Reply</h3>
+                                        <p>Your email address will not be published. Required fields are marked *</p>
+                                        <form action="#" id="contact-form" method="POST">
+                                            <div className="row g-4">
+                                                <div className="col-lg-6">
+                                                    <div className="form-clt">
+                                                        <span>Name</span>
+                                                        <input type="text" name="name" id="name" placeholder="Name *" />
+                                                    </div>
+                                                </div>
+                                                <div className="col-lg-6">
+                                                    <div className="form-clt">
+                                                        <span>Email</span>
+                                                        <input type="text" name="email" id="email6" placeholder="Email" />
+                                                    </div>
+                                                </div>
+                                                <div className="col-lg-12">
+                                                    <div className="form-clt">
+                                                        <span>Website</span>
+                                                        <input type="text" name="email" id="email06" placeholder="Website" />
+                                                    </div>
+                                                </div>
+                                                <div className="col-lg-12">
+                                                    <div className="form-clt">
+                                                        <span>write message</span>
+                                                        <textarea name="message" id="message" placeholder="Type your message"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div className="form-check">
+                                                    <input className="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                                                    <label className="form-check-label" htmlFor="flexCheckDefault">
+                                                   Save my name, email, and website in this browser for the next time I comment.
+                                                    </label>
+                                                </div>
+                                                <div className="col-lg-6">
+                                                    <button type="submit" className="theme-btn">
+                                                      Post a Comment   +
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="main-sideber sticky-style">
+                                <div className="single-sideber-widget wow fadeInUp" data-wow-delay=".2s">
+                                    <div className="widget-title">
+                                        <h3>Search</h3>
+                                    </div>
+                                    <div className="search-widget">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search blog" />
+                                            <button type="submit"><i className="fa-solid fa-magnifying-glass"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div className="single-sideber-widget wow fadeInUp" data-wow-delay=".4s">
+                                <div className="widget-title">
+                                    <h3>Latest News</h3>
+                                </div>
+                                <div className="recent-post-area">
+                                    <div className="recent-items">
+                                        <div className="recent-thumb">
+                                            <img src="/assets/img/inner/news/post-1.jpg" alt="img" />
+                                              </div>
+                                                <div className="recent-content">
+                                                    <ul>
+                                                        <li>
+                                                        JANUARY 06, 2025
+                                                        </li>
+                                                    </ul>
+                                                    <h6>
+                                                        <a href="/news-details">
+                                                           Build a Strong Financial Foundation Your Business
+                                                        </a>
+                                                    </h6>
+                                                </div>
+                                         </div>
+                                        <div className="recent-items">
+                                           <div className="recent-thumb">
+                                                 <img src="/assets/img/inner/news/post-2.jpg" alt="img" />
+                                               </div>
+                                                <div className="recent-content">
+                                                    <ul>
+                                                        <li>
+                                                          JANUARY 06, 2025
+                                                        </li>
+                                                    </ul>
+                                                    <h6>
+                                                        <a href="/news-details">
+                                                            Top Investment Strategies for Growing Your Wealth
+                                                        </a>
+                                                    </h6>
+                                             </div>
+                                         </div>
+                                         <div className="recent-items">
+                                           <div className="recent-thumb">
+                                                 <img src="/assets/img/inner/news/post-3.jpg" alt="img" />
+                                               </div>
+                                                <div className="recent-content">
+                                                    <ul>
+                                                        <li>
+                                                          JANUARY 06, 2025
+                                                        </li>
+                                                    </ul>
+                                                    <h6>
+                                                        <a href="/news-details">
+                                                            5 Essential Tax Planning Tips Every Entrepreneur
+                                                        </a>
+                                                    </h6>
+                                             </div>
+                                         </div>
+                                    </div>
+                                </div>
+                                <div className="single-sideber-widget wow fadeInUp" data-wow-delay=".6s">
+                                <div className="widget-title">
+                                    <h3>Categories</h3>
+                                </div>
+                                <ul>
+                                    <li><a href="/news-details">Charity</a><span>(28)</span></li>
+                                    <li><a href="/news-details">Branding Design</a><span>(34)</span></li>
+                                    <li><a href="/news-details">Financial Investment</a><span>(02)</span></li>
+                                    <li><a href="/news-details">Business</a><span>(09)</span></li>
+                                    <li><a href="/news-details">Design</a><span>(23)</span></li>
+                                </ul>
+                              </div>
+                              <div className="single-sideber-widget mb-0 wow fadeInUp" data-wow-delay=".8s">
+                                 <div className="widget-title">
+                                    <h3>Tags</h3>
+                                </div>
+                                <div className="tagcloud">
+                                    <a href="/news-details">Finance</a>     
+                                    <a href="/news-details">Business</a>
+                                    <a href="/news-details">Marketing</a>
+                                    <a href="/news-details">IT</a>
+                                    <a href="/news-details">Development</a>
+                                    <a href="/news-details">Strategy</a>
+                                    <a href="/news-details">Software</a>     
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                {/* CTA Section Start */}
+                <section className="cta-section">
+                    <div className="container">
+                        <div className="cta-wrapper">
+                            <div className="cta-image wow fadeInUp" data-wow-delay=".2s">
+                                <img src="/assets/img/home-1/cta-image.png" alt="img" />
+                            </div>
+                            <h3 className="text-anim">Innovating Today, Shaping Tomorrow <br /> with Smart Solutions</h3>
+                            <a href="/contact" className="theme-btn wow fadeInUp" data-wow-delay=".4s">
+                                Learn More
+                                <i className="fa-solid fa-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+
+                {/* Footer Section Start */}
+                <footer className="footer-section-2 bg-cover" style={{backgroundImage: 'url(/assets/img/footer-bg.jpg)'}}>
+                    <div className="footer-info-area-2">
+                        <div className="container footer-info-container">
+                            <div className="footer-info-wrapper-2">
+                                <div className="info-items wow fadeInUp" data-wow-delay=".2s">
+                                    <div className="icon"><img src="/assets/img/footer/icon-01.svg" alt="img" /></div>
+                                    <div className="content">
+                                        <h5>Call Us</h5>
+                                        <h6><a href="tel:+233322060230">+233 (0) 32 206 0230</a></h6>
+                                    </div>
+                                </div>
+                                <div className="info-items wow fadeInUp" data-wow-delay=".4s">
+                                    <div className="icon"><img src="/assets/img/footer/icon-02.svg" alt="img" /></div>
+                                    <div className="content">
+                                        <h5>Email Us</h5>
+                                        <h6><a href="mailto:scimlab@knust.edu.gh">scimlab@knust.edu.gh</a></h6>
+                                    </div>
+                                </div>
+                                <div className="info-items wow fadeInUp" data-wow-delay=".6s">
+                                    <div className="icon"><img src="/assets/img/footer/icon-03.svg" alt="img" /></div>
+                                    <div className="content">
+                                        <h5>Working Hours</h5>
+                                        <h6>Mon - Fri: 8:00am - 5:00pm</h6>
+                                    </div>
+                                </div>
+                                <div className="info-items border-none wow fadeInUp" data-wow-delay=".8s">
+                                    <div className="icon"><img src="/assets/img/footer/icon-04.svg" alt="img" /></div>
+                                    <div className="content">
+                                        <h5>Location</h5>
+                                        <h6>TCC-CIMET, KNUST, Kumasi</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container">
+                        <div className="footer-widget-wrapper-2 footer-style-2">
+                            <div className="row">
+                                <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                                    <div className="single-footer-widget">
+                                        <div className="widget-head">
+                                            <a href="/" className="footer-logo">
+                                            <img src="/assets/img/logo/white-logo.png" alt="SCiM LAB" className="white-logo-filter" style={{width: '200px'}} />
+                                            </a>
+                                        </div>
+                                        <div className="footer-content">
+                                            <p>
+                                                The Smart Cities and Manufacturing Lab at TCC-CIMET, KNUST — Innovating Today, Shaping Tomorrow.
+                                            </p>
+                                            <div className="social-icon d-flex align-items-center">
+                                                <a href="https://www.linkedin.com/in/scimlab360" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+                                                <a href="https://twitter.com/Scimlab_360" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+                                                <a href="https://instagram.com/scim_lab" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".4s">
+                                    <div className="single-footer-widget">
+                                        <div className="widget-head">
+                                            <h3>Quick Links</h3>
+                                        </div>
+                                        <ul className="list-area">
+                                            <li><a href="/about">About SCiM LAB</a></li>
+                                            <li><a href="/team">Our Team</a></li>
+                                            <li><a href="/contact">Contact Us</a></li>
+                                            <li><a href="/projects">Projects</a></li>
+                                            <li><a href="/faq">FAQs</a></li>
+                                            <li><a href="/news">News</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 ps-lg-5 col-sm-6 col-6 wow fadeInUp" data-wow-delay=".6s">
+                                    <div className="single-footer-widget">
+                                        <div className="widget-head">
+                                            <h3>Research Areas</h3>
+                                        </div>
+                                        <ul className="list-area">
+                                            <li><a href="/service-details">Smart City Solutions</a></li>
+                                            <li><a href="/service-details">Advanced Manufacturing</a></li>
+                                            <li><a href="/service-details">Digital Twinning</a></li>
+                                            <li><a href="/service-details">Sustainable Architecture</a></li>
+                                            <li><a href="/service-details">Urban Mobility</a></li>
+                                            <li><a href="/service-details">Frugal Innovation</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                                    <div className="single-footer-widget">
+                                        <div className="widget-head">
+                                            <h3>Stay Updated</h3>
+                                        </div>
+                                        <div className="footer-content">
+                                            <p>
+                                                Subscribe to our newsletter for the latest research updates and events
+                                            </p>
+                                            <div className="footer-input">
+                                                <input type="email" id="email11" placeholder="Your email" />
+                                                <button className="theme-btn" type="submit">
+                                                SUBSCRIBE NOW
+                                                <i className="far fa-arrow-right"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="footer-bottom-2">
+                        <div className="container">
+                            <div className="footer-bottom-wrapper-2 style-2 wow fadeInUp" data-wow-delay=".3s">
+                                <p className="text-center">&copy; 2026 SCiM LAB — TCC-CIMET, KNUST. All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+
+        {/* << All JS Plugins >> */}
+    </>
+  )
+}
+
+export default NewsDetails
