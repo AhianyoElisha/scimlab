@@ -117,7 +117,7 @@ function InnerLayout({ children, breadcrumbs, pageTitle, activePage }) {
         <div id="smooth-content">
 
           {/* Breadcrumb Section Start */}
-          <section className="breadcrumb-wrapper bg-cover fix" style={{ backgroundImage: 'url(/assets/img/inner/breadcrumb-image.jpg)' }}>
+          <section className="breadcrumb-wrapper bg-cover fix" style={{ backgroundImage: 'url(/assets/media/1.jpg)' }}>
             <div className="container">
               <div className="page-heading">
                 <ul className="breadcrumb-list">
@@ -137,7 +137,7 @@ function InnerLayout({ children, breadcrumbs, pageTitle, activePage }) {
           <section className="section-bg-3 pt-35">
             <div className="cta-section-3 mt-0">
               <div className="cta-image d-none d-xl-block">
-                <img src="/assets/img/home-3/cta-image.png" alt="img" />
+                <img src="/assets/media/2.jpg" alt="img" style={{maxWidth: '377px', height: '367px', objectFit: 'cover', backgroundPosition: 'center'}}/>
               </div>
               <div className="cta-shape d-none d-xl-block float-bob-y">
                 <img src="/assets/img/home-3/cta-image-shape.png" alt="img" />
@@ -162,7 +162,7 @@ function InnerLayout({ children, breadcrumbs, pageTitle, activePage }) {
           </section>
 
           {/* Footer Section Start */}
-          <footer className="footer-section-2 bg-cover" style={{ backgroundImage: 'url(/assets/img/footer-bg.jpg)' }}>
+          <footer className="footer-section-2 bg-cover" style={{ backgroundImage: 'url(/assets/media/1.jpg)' }}>
             <div className="footer-info-area-2">
               <div className="container footer-info-container">
                 <div className="footer-info-wrapper-2">
