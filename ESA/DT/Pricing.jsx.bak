@@ -11,7 +11,7 @@ function Pricing() {
                         <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div className="offcanvas__logo">
                                 <a href="/">
-                                    <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{width: '250px'}}/>
+                                    <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{width: '150px'}}/>
                                 </a>
                             </div>
                             <div className="offcanvas__close">
@@ -94,7 +94,7 @@ function Pricing() {
                 <div className="mega-menu-wrapper">
                     <div className="header-main">
                        <a href="/" className="header-logo">
-                            <img src="/assets/img/logo/black-logo.png" style={{width: '250px'}} alt="SCiM LAB" />
+                            <img src="/assets/img/logo/black-logo.png" style={{width: '150px'}} alt="SCiM LAB" />
                         </a>
                         <div className="header-right d-flex justify-content-end align-items-center">
                             <div className="mean__menu-wrapper">

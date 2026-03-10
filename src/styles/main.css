@@ -13390,7 +13390,7 @@ span {
 }
 .team-box-items-style-1 .content .bottom-items .theme-btn {
   background-color: var(--white);
-  color: var(--header);
+  color: var(--theme);
   line-height: 1;
 }
 @media (max-width: 1600px) {
@@ -13404,12 +13404,17 @@ span {
 }
 .team-box-items-style-1 .content .bottom-items .theme-btn i {
   background-color: var(--theme);
-  color: var(--header);
-}
-.team-box-items-style-1 .content .bottom-items .theme-btn:hover i {
-  background-color: var(--header);
   color: var(--white);
 }
+.team-box-items-style-1 .content .bottom-items .theme-btn:hover i {
+  background-color: var(--theme-2);
+  color: var(--white);
+}
+
+.team-box-items-style-1 .content .bottom-items .theme-btn:hover {
+  color: var(--white);
+}
+
 .team-box-items-style-1:hover .thumb img {
   transform: scale(1.1) rotate(2deg);
 }
@@ -13961,10 +13966,10 @@ span {
   line-height: 57px;
   text-align: center;
   border-radius: 50%;
-  color: var(--header);
+  color: var(--white);
 }
 .project-thumb-box-items-style-1 .project-content .circle-icon:hover {
-  background-color: var(--header);
+  background-color: var(--theme-2);
   color: var(--white);
 }
 .project-thumb-box-items-style-1:hover .project-content {

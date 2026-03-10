@@ -74,7 +74,7 @@ function InnerLayout({ children, breadcrumbs, pageTitle, activePage }) {
           <div className="mega-menu-wrapper">
             <div className="header-main">
               <a href="/" className="header-logo">
-                <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{ width: '250px' }} />
+                <img src="/assets/img/logo/black-logo.png" alt="SCiM LAB" style={{ width: '150px' }} />
               </a>
               <div className="header-right d-flex justify-content-end align-items-center">
                 <div className="mean__menu-wrapper">
@@ -192,7 +192,7 @@ function InnerLayout({ children, breadcrumbs, pageTitle, activePage }) {
                     <div className="single-footer-widget">
                       <div className="widget-head">
                         <a href="/" className="footer-logo">
-                          <img src="/assets/img/logo/white-logo.png" alt="SCiM LAB" className="white-logo-filter" style={{ width: '200px' }} />
+                          <img src="/assets/img/logo/white-logo.png" alt="SCiM LAB" className="white-logo-filter" style={{ width: '150px' }} />
                         </a>
                       </div>
                       <div className="footer-content">
